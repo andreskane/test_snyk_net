@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "LogImpactTruckId": 1,
+    "NodeDefinitionId": 10076
+  },
+  {
+    "Id": 2,
+    "LogImpactTruckId": 1,
+    "NodeDefinitionId": 9959
+  },
+  {
+    "Id": 3,
+    "LogImpactTruckId": 1,
+    "NodeDefinitionId": 10075
+  },
+  {
+    "Id": 4,
+    "LogImpactTruckId": 1,
+    "NodeDefinitionId": 10074
+  },
+  {
+    "Id": 5,
+    "LogImpactTruckId": 1,
+    "NodeDefinitionId": 10072
+  },
+  {
+    "Id": 6,
+    "LogImpactTruckId": 1,
+    "NodeDefinitionId": 10073
+  },
+  {
+    "Id": 7,
+    "LogImpactTruckId": 1,
+    "NodeDefinitionId": 100015
+  }
+]

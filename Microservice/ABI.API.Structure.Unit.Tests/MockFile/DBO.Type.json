@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "Name": "CONTENIDO POR",
+    "TypeGroupId": 1
+  },
+  {
+    "id": 2,
+    "Name": "NODO",
+    "TypeGroupId": 2
+  },
+  {
+    "id": 3,
+    "Name": "ARISTA",
+    "TypeGroupId": 2
+  },
+  {
+    "id": 4,
+    "Name": "ESTRUCTURA",
+    "TypeGroupId": 3
+  },
+  {
+    "id": 5,
+    "Name": "ROL",
+    "TypeGroupId": 3
+  },
+  {
+    "id": 6,
+    "Name": "PERSONA",
+    "TypeGroupId": 3
+  }
+]

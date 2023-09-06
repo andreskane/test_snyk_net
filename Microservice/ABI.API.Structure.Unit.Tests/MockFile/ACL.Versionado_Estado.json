@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Name": "PendienteDeEnvio"
+  },
+  {
+    "Id": 2,
+    "Name": "Procesando"
+  },
+  {
+    "Id": 3,
+    "Name": "Aceptado"
+  },
+  {
+    "Id": 4,
+    "Name": "Operativo"
+  },
+  {
+    "Id": 5,
+    "Name": "Rechazado"
+  },
+  {
+    "Id": 6,
+    "Name": "Cancelado"
+  }
+]

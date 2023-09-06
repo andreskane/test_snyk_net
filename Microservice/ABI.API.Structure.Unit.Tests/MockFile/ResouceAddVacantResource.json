@@ -1,0 +1,30 @@
+{
+  "result": {
+    "code": "99999999999",
+    "company": "01AR",
+    "id": 999,
+    "name": "VACANTE 999",
+    "relations": [
+      {
+        "code": "99999999999",
+        "name": "VACANTE 999",
+        "type": 1,
+        "attributes": {
+          "VdrCod": "999",
+          "VdrCodExt": "",
+          "VdrCodLega": "99999999999",
+          "VdrIdPtoEm": "",
+          "VdrNom": "VACANTE 999",
+          "VdrTpoCat": "V",
+          "VdrTpoLpr": "999"
+        }
+      }
+    ]
+  },
+  "messages": [],
+  "statusResponse": {
+    "code": 200,
+    "message": "OK"
+  },
+  "errors": null
+}

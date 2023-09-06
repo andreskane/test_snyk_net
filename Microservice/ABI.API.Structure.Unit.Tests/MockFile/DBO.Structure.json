@@ -1,0 +1,114 @@
+[
+  {
+    "Id": 1,
+    "StructureModelId": 1,
+    "RootNodeId": 1,
+    "ValidityFrom": "2020-10-08",
+    "Name": "ARGENTINA - TRUCK DEMO",
+    "Code": "ARG_VTA1"
+  },
+  {
+    "Id": 2,
+    "StructureModelId": 1,
+    "RootNodeId": 1,
+    "ValidityFrom": "2020-10-08",
+    "Name": "DELETEABLE",
+    "Code": "ARG_VTA2"
+  },
+  {
+    "Id": 3,
+    "StructureModelId": 1,
+    "RootNodeId": 100000,
+    "ValidityFrom": "2020-10-08",
+    "Name": "NOTREMOVE",
+    "Code": "ARG_VTA3"
+  },
+  {
+    "Id": 4,
+    "StructureModelId": 1,
+    "RootNodeId": null,
+    "ValidityFrom": "2020-10-08",
+    "Name": "WITHOUTNODES",
+    "Code": "ARG_VTA4"
+  },
+  {
+    "Id": 5,
+    "StructureModelId": 1,
+    "RootNodeId": 100009,
+    "ValidityFrom": "2020-10-08",
+    "Name": "WITHROOTNODE",
+    "Code": "ARG_VTA5"
+  },
+  {
+    "Id": 6,
+    "StructureModelId": 10000,
+    "RootNodeId": 100009,
+    "ValidityFrom": "2020-10-08",
+    "Name": "EXPORTABLETOTRUCK",
+    "Code": "ARG_VTA6"
+  },
+  {
+    "Id": 7,
+    "StructureModelId": 10000,
+    "RootNodeId": 100013,
+    "ValidityFrom": "2020-10-08",
+    "Name": "EXPORTABLETOTRUCK",
+    "Code": "ARG_VTA7"
+  },
+  {
+    "Id": 8,
+    "StructureModelId": 10005,
+    "RootNodeId": 100014,
+    "ValidityFrom": "2020-10-08",
+    "Name": "EXPORTABLETOTRUCK",
+    "Code": "ARG_VTA8"
+  },
+  {
+    "Id": 9,
+    "StructureModelId": 1,
+    "RootNodeId": null,
+    "ValidityFrom": "2020-01-01",
+    "Name": "NAMETEST",
+    "Code": "ARG_VTA9"
+  },
+  {
+    "Id": 10,
+    "StructureModelId": 1,
+    "RootNodeId": null,
+    "ValidityFrom": "2020-01-01",
+    "Name": "CHANGE TRACKING",
+    "Code": "ARG_VTA10"
+  },
+  {
+    "Id": 11,
+    "StructureModelId": 1,
+    "RootNodeId": 100018,
+    "ValidityFrom": "2020-01-01",
+    "Name": "WITH NODEROOT",
+    "Code": "ARG_VTA_TESTB"
+  },
+  {
+    "Id": 12,
+    "StructureModelId": 1,
+    "RootNodeId": 100018,
+    "ValidityFrom": "2020-01-01",
+    "Name": "NODEROOTA",
+    "Code": "ARG_VTA_NODEROOTA"
+  },
+  {
+    "Id": 13,
+    "StructureModelId": 1,
+    "RootNodeId": 1,
+    "ValidityFrom": "2020-01-01",
+    "Name": "ARGENTINA",
+    "Code": "ARG_VTA_ARGENTINA"
+  },
+  {
+    "Id": 14,
+    "StructureModelId": 10007,
+    "RootNodeId": 100045,
+    "ValidityFrom": "2020-01-01",
+    "Name": "ARGENTINA",
+    "Code": "ARG_VTA_4RGENT1NA"
+  }
+]

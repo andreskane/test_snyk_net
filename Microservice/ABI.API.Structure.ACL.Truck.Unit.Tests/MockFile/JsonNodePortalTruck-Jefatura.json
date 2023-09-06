@@ -1,0 +1,67 @@
+[
+  {
+    "nodo_id": 1074,
+    "Name": "PONTORIERO CARLOS TW",
+    "Code": "2639_33",
+    "LevelId": 6,
+    "ActiveNode": true,
+    "RoleId": 11,
+    "EmployeeId": 2639,
+    "NodeIdParent": 1073,
+    "ValidityFrom": "2020-10-13",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00",
+    "ParentNodeCode": "33"
+  },
+  {
+    "nodo_id": 1077,
+    "Name": "PONTORIERO C.TW - MAYORISTAS",
+    "Code": "2656_34",
+    "LevelId": 6,
+    "ActiveNode": true,
+    "RoleId": 11,
+    "EmployeeId": 2656,
+    "NodeIdParent": 1076,
+    "ValidityFrom": "2020-10-13",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00",
+    "ParentNodeCode": "34"
+  },
+  {
+    "nodo_id": 1083,
+    "Name": "PONTORIERO C. TW - VTA PLANTA",
+    "Code": "2657_38",
+    "LevelId": 6,
+    "ActiveNode": true,
+    "RoleId": 11,
+    "EmployeeId": 2657,
+    "NodeIdParent": 1082,
+    "ValidityFrom": "2020-10-13",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00",
+    "ParentNodeCode": "38"
+  },
+  {
+    "nodo_id": 1036,
+    "Name": "ANDRES SILVEIRA",
+    "Code": "17253_29",
+    "LevelId": 6,
+    "ActiveNode": true,
+    "RoleId": 11,
+    "EmployeeId": 17253,
+    "NodeIdParent": 1085,
+    "ValidityFrom": "2020-10-13",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00",
+    "ParentNodeCode": "29"
+  },
+  {
+    "nodo_id": 1396,
+    "Name": "MINIG JAVIER",
+    "Code": "1605_29",
+    "LevelId": 6,
+    "ActiveNode": true,
+    "RoleId": 11,
+    "EmployeeId": 1605,
+    "NodeIdParent": 1085,
+    "ValidityFrom": "2020-10-13",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00",
+    "ParentNodeCode": "29"
+  }
+]

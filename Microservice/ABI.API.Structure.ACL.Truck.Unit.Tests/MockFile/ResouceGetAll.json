@@ -1,0 +1,230 @@
+{
+  "result": [
+    {
+      "code": "22200001111",
+      "company": "01AR",
+      "id": 1,
+      "name": "BATTAGLIA, ELIANA BEATRIZ 2",
+      "relations": [
+        {
+          "code": "22200001111",
+          "name": "BATTAGLIA, ELIANA BEATRIZ 2",
+          "type": 1,
+          "attributes": {
+            "VdrCod": "1",
+            "VdrCodExt": "",
+            "VdrCodLega": "22200001111",
+            "VdrIdPtoEm": "",
+            "VdrNom": "BATTAGLIA, ELIANA BEATRIZ 2",
+            "VdrTpoCat": "V",
+            "VdrTpoLpr": "999"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "company": "01AR",
+      "code": "99999888889",
+      "name": "CARGO SERV INDUST",
+      "relations": [
+        {
+          "code": "99999888889",
+          "name": "CARGO SERV INDUST",
+          "type": 1,
+          "attributes": {
+            "VdrCod": "70560",
+            "VdrCodExt": "",
+            "VdrCodLega": "99999888889",
+            "VdrIdPtoEm": "9251",
+            "VdrNom": "CARGO SERV INDUST",
+            "VdrTpoCat": "C",
+            "VdrTpoLpr": "999"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "company": "01AR",
+      "code": "0",
+      "name": "DIST. DEL VALLE",
+      "relations": [
+        {
+          "code": "0",
+          "name": "DIST. DEL VALLE",
+          "type": 1,
+          "attributes": {
+            "VdrCod": "70549",
+            "VdrCodExt": "",
+            "VdrCodLega": "0",
+            "VdrIdPtoEm": "9280",
+            "VdrNom": "DIST. DEL VALLE",
+            "VdrTpoCat": "C",
+            "VdrTpoLpr": "999"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "company": "01AR",
+      "code": "0",
+      "name": "CALIFORNIA",
+      "relations": [
+        {
+          "code": "0",
+          "name": "CALIFORNIA",
+          "type": 1,
+          "attributes": {
+            "VdrCod": "70484",
+            "VdrCodExt": "",
+            "VdrCodLega": "0",
+            "VdrIdPtoEm": "9267",
+            "VdrNom": "CALIFORNIA",
+            "VdrTpoCat": "C",
+            "VdrTpoLpr": "999"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "company": "01AR",
+      "code": "0",
+      "name": "CCIAL.ANDRESITO",
+      "relations": [
+        {
+          "code": "0",
+          "name": "CCIAL.ANDRESITO",
+          "type": 1,
+          "attributes": {
+            "VdrCod": "70429",
+            "VdrCodExt": "",
+            "VdrCodLega": "0",
+            "VdrIdPtoEm": "9267",
+            "VdrNom": "CCIAL.ANDRESITO",
+            "VdrTpoCat": "C",
+            "VdrTpoLpr": "999"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "company": "01AR",
+      "code": "1545",
+      "name": "DISTRIBUIDOR",
+      "relations": [
+        {
+          "code": "1545",
+          "name": "DISTRIBUIDOR",
+          "type": 1,
+          "attributes": {
+            "VdrCod": "70428",
+            "VdrCodExt": "",
+            "VdrCodLega": "1545",
+            "VdrIdPtoEm": "9384",
+            "VdrNom": "DISTRIBUIDOR",
+            "VdrTpoCat": "C",
+            "VdrTpoLpr": "999"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "company": "01AR",
+      "code": "0",
+      "name": "TOTAL DISTRIBUCIONES",
+      "relations": [
+        {
+          "code": "0",
+          "name": "TOTAL DISTRIBUCIONES",
+          "type": 1,
+          "attributes": {
+            "VdrCod": "70427",
+            "VdrCodExt": "",
+            "VdrCodLega": "0",
+            "VdrIdPtoEm": "9267",
+            "VdrNom": "TOTAL DISTRIBUCIONES",
+            "VdrTpoCat": "C",
+            "VdrTpoLpr": "999"
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "company": "01AR",
+      "code": "0",
+      "name": "FANK Y SCHERF SRL",
+      "relations": [
+        {
+          "code": "0",
+          "name": "FANK Y SCHERF SRL",
+          "type": 1,
+          "attributes": {
+            "VdrCod": "70425",
+            "VdrCodExt": "",
+            "VdrCodLega": "0",
+            "VdrIdPtoEm": "9267",
+            "VdrNom": "FANK Y SCHERF SRL",
+            "VdrTpoCat": "C",
+            "VdrTpoLpr": "999"
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "company": "01AR",
+      "code": "0",
+      "name": "EXPRESS BEER",
+      "relations": [
+        {
+          "code": "0",
+          "name": "EXPRESS BEER",
+          "type": 1,
+          "attributes": {
+            "VdrCod": "70358",
+            "VdrCodExt": "",
+            "VdrCodLega": "0",
+            "VdrIdPtoEm": "9254",
+            "VdrNom": "EXPRESS BEER",
+            "VdrTpoCat": "C",
+            "VdrTpoLpr": "999"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "company": "01AR",
+      "code": "0",
+      "name": "HAZIEL",
+      "relations": [
+        {
+          "code": "0",
+          "name": "HAZIEL",
+          "type": 1,
+          "attributes": {
+            "VdrCod": "63110",
+            "VdrCodExt": "",
+            "VdrCodLega": "0",
+            "VdrIdPtoEm": "9253",
+            "VdrNom": "HAZIEL",
+            "VdrTpoCat": "C",
+            "VdrTpoLpr": "999"
+          }
+        }
+      ]
+    }
+  ],
+  "messages": [],
+  "statusResponse": {
+    "code": 200,
+    "message": "OK"
+  },
+  "errors": null
+}

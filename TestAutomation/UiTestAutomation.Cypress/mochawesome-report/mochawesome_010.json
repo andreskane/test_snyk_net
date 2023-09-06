@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-07-20T11:43:42.712Z",
+    "end": "2021-07-20T11:43:46.044Z",
+    "duration": 3332,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f371a1d5-d7bf-4b8a-951a-01773a305c1f",
+      "title": "",
+      "fullFile": "cypress/integration/tests/ta_1.spec.js",
+      "file": "cypress/integration/tests/ta_1.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f0ecd437-17c0-49d4-a96f-b956459c329e",
+          "title": "paso 1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should login succesfully and show the welcome message",
+              "fullTitle": "paso 1 Should login succesfully and show the welcome message",
+              "timedOut": null,
+              "duration": 3272,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\ncy.visit(WSC_URL_DEV); // Verificando existencia del titulo en el home\ncy.get('.page-title').should('have.text', 'Bienvenido a WSC');",
+              "err": {},
+              "uuid": "41d54030-49a3-40ba-8323-b3b02864e1c9",
+              "parentUUID": "f0ecd437-17c0-49d4-a96f-b956459c329e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "41d54030-49a3-40ba-8323-b3b02864e1c9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3272,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

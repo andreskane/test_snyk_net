@@ -1,0 +1,938 @@
+[
+  {
+    "Id": 17860,
+    "NodeId": 3,
+    "Name": "MUGURUSA RAUL ALEJANDRO",
+    "ClientId": " 53194",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17861,
+    "NodeId": 321,
+    "Name": "BARRAGAN ANALIA",
+    "ClientId": "383157",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17862,
+    "NodeId": 321,
+    "Name": "DUAL TEAM SRL",
+    "ClientId": "385766",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17863,
+    "NodeId": 321,
+    "Name": "PONCE SILVIA PAULINA",
+    "ClientId": "386126",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17864,
+    "NodeId": 321,
+    "Name": "SCAGLIA ENRICO",
+    "ClientId": "386637",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17865,
+    "NodeId": 321,
+    "Name": "NETTO JUAN",
+    "ClientId": "388377",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17866,
+    "NodeId": 321,
+    "Name": "PERRONE JUAN PABLO",
+    "ClientId": "388991",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17867,
+    "NodeId": 321,
+    "Name": "BADOSA JULIAN RODRIGO",
+    "ClientId": "389482",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17868,
+    "NodeId": 321,
+    "Name": "SPAGNOLI LISANDRO HORACIO",
+    "ClientId": "391935",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17869,
+    "NodeId": 321,
+    "Name": "FRANCO CLAUDIA FABIANA",
+    "ClientId": "392399",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17870,
+    "NodeId": 321,
+    "Name": "AMAYA SUSANA",
+    "ClientId": "393785",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17871,
+    "NodeId": 321,
+    "Name": "GONZALEZ NAPOLEONE GERMAN ANDRES",
+    "ClientId": "394393",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17872,
+    "NodeId": 321,
+    "Name": "CORDOBA MARIA ISABEL",
+    "ClientId": "397096",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17873,
+    "NodeId": 321,
+    "Name": "ARRIGHI ROXANA MARIA DE LUJAN",
+    "ClientId": "397242",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17874,
+    "NodeId": 321,
+    "Name": "DALMASO NANCY EDITH",
+    "ClientId": "397424",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17875,
+    "NodeId": 321,
+    "Name": "AGUIRRE OSCAR FABIAN",
+    "ClientId": "382298",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17876,
+    "NodeId": 321,
+    "Name": "BUENO PABLO DANIEL",
+    "ClientId": "397437",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17877,
+    "NodeId": 321,
+    "Name": "SCHNEIDEWIND GASTON DANILO",
+    "ClientId": "398552",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17878,
+    "NodeId": 321,
+    "Name": "ENRIQUE IRMA NOEMI",
+    "ClientId": "399104",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17879,
+    "NodeId": 321,
+    "Name": "VECHIET ADRIANA MABEL",
+    "ClientId": "399110",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17880,
+    "NodeId": 321,
+    "Name": "COTAQUISPE PALOMINO SILVIA",
+    "ClientId": "399630",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17881,
+    "NodeId": 321,
+    "Name": "WESNER MARTA VIVIANA",
+    "ClientId": "399689",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17882,
+    "NodeId": 321,
+    "Name": "GRIBA MICAELA DANIELA",
+    "ClientId": "403620",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17883,
+    "NodeId": 321,
+    "Name": "VALLEJOS MARIANELA",
+    "ClientId": "404093",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17884,
+    "NodeId": 321,
+    "Name": "DELGADO VERONICA",
+    "ClientId": "404123",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17885,
+    "NodeId": 321,
+    "Name": "GARCIA MARISOL",
+    "ClientId": "404143",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17886,
+    "NodeId": 321,
+    "Name": "ACQUA PESCADERIAS S.R.L.",
+    "ClientId": "404405",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17887,
+    "NodeId": 321,
+    "Name": "GAGLIARDI MARIA DEL CARMEN",
+    "ClientId": "404481",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17888,
+    "NodeId": 321,
+    "Name": "PONCE SILVIA PAULINA",
+    "ClientId": "404586",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17889,
+    "NodeId": 321,
+    "Name": "GARAY MIGUEL",
+    "ClientId": "405624",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17890,
+    "NodeId": 321,
+    "Name": "CONCION NICOLAS ALEJANDRO",
+    "ClientId": "406598",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17891,
+    "NodeId": 321,
+    "Name": "VALENZUELA ANTONIA",
+    "ClientId": "397693",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17892,
+    "NodeId": 321,
+    "Name": "SANTAMARIA JESICA EDITH",
+    "ClientId": "407625",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17893,
+    "NodeId": 321,
+    "Name": "MOGORDOY CARLA",
+    "ClientId": "382231",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17894,
+    "NodeId": 321,
+    "Name": "BASUALDO SOFIA AYLEN",
+    "ClientId": "381435",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17895,
+    "NodeId": 321,
+    "Name": "GARCIA DIEGO SEBASTIAN",
+    "ClientId": "332910",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17896,
+    "NodeId": 321,
+    "Name": "STRACK ANDREA MARIEL",
+    "ClientId": "334200",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17897,
+    "NodeId": 321,
+    "Name": "MAZANOWICZ BEATRIZ NORMA",
+    "ClientId": "334507",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17898,
+    "NodeId": 321,
+    "Name": "PAZ ALDO JOSE",
+    "ClientId": "334509",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17899,
+    "NodeId": 321,
+    "Name": "DOMIZI CLAUDIA BEATRIZ",
+    "ClientId": "335924",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17900,
+    "NodeId": 321,
+    "Name": "SILVERO FERNANDO GABRIEL",
+    "ClientId": "337576",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17901,
+    "NodeId": 321,
+    "Name": "GASTALDO MARIA PIA",
+    "ClientId": "339705",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17902,
+    "NodeId": 321,
+    "Name": "MU�OZ ANTONIO DOMINGO",
+    "ClientId": "340776",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17903,
+    "NodeId": 321,
+    "Name": "BRACAMONTE MARIA DEL CARMEN",
+    "ClientId": "342595",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17904,
+    "NodeId": 321,
+    "Name": "SESER S.R.L.",
+    "ClientId": "357259",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17905,
+    "NodeId": 321,
+    "Name": "STAGNITTA PATRICIO CIRO OCTAVIO",
+    "ClientId": "357821",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17906,
+    "NodeId": 321,
+    "Name": "AMOROSINO MAURICIO MARIO",
+    "ClientId": "360033",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17907,
+    "NodeId": 321,
+    "Name": "MACHADO SELVA",
+    "ClientId": "363546",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17908,
+    "NodeId": 321,
+    "Name": "GUASSARDO CALORS HERNAN",
+    "ClientId": "364522",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17909,
+    "NodeId": 321,
+    "Name": "GIMENEZ JULIETA ANDREA",
+    "ClientId": "381449",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17910,
+    "NodeId": 321,
+    "Name": "SANTORO LAURA SOLEDAD",
+    "ClientId": "364866",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17911,
+    "NodeId": 321,
+    "Name": "LOLI DEPAZ SANTA",
+    "ClientId": "366430",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17912,
+    "NodeId": 321,
+    "Name": "PAGLIAROLI NESTOR WALTER",
+    "ClientId": "368620",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17913,
+    "NodeId": 321,
+    "Name": "DEL PRADO CESAR",
+    "ClientId": "369594",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17914,
+    "NodeId": 321,
+    "Name": "PACHECO S.R.L.",
+    "ClientId": "370640",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17915,
+    "NodeId": 321,
+    "Name": "RECANZONE CHRISTIAN MARTIN",
+    "ClientId": "372292",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17916,
+    "NodeId": 321,
+    "Name": "LOPEZ VERONICA SOLEDAD",
+    "ClientId": "372490",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17917,
+    "NodeId": 321,
+    "Name": "GERLO ERICA CORA MARISA",
+    "ClientId": "374817",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17918,
+    "NodeId": 321,
+    "Name": "TAMBONE LISANDRO",
+    "ClientId": "376051",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17919,
+    "NodeId": 321,
+    "Name": "DIAZ JULIETA ANDREA",
+    "ClientId": "377015",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17920,
+    "NodeId": 321,
+    "Name": "TRES SUE�OS SRL",
+    "ClientId": "377534",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17921,
+    "NodeId": 321,
+    "Name": "PANIFICADORA LA NUEVA SUIZA S.R.L.",
+    "ClientId": "377760",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17922,
+    "NodeId": 321,
+    "Name": "JURI MIGUEL OSCAR",
+    "ClientId": "378630",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17923,
+    "NodeId": 321,
+    "Name": "MARRACINO MIGUEL ANGEL",
+    "ClientId": "379510",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17924,
+    "NodeId": 321,
+    "Name": "TOLEDO ANA MARIA",
+    "ClientId": "381240",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17925,
+    "NodeId": 321,
+    "Name": "COVELLO SILVINA",
+    "ClientId": "365855",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17926,
+    "NodeId": 321,
+    "Name": "LUGO MARIA CRISTINA",
+    "ClientId": "407691",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17927,
+    "NodeId": 321,
+    "Name": "CATALUNYA VINS SRL",
+    "ClientId": "407744",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17928,
+    "NodeId": 321,
+    "Name": "FALCON TAMARA",
+    "ClientId": "407794",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17929,
+    "NodeId": 321,
+    "Name": "KAINER ANGELA CATALINA",
+    "ClientId": "897087",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17930,
+    "NodeId": 321,
+    "Name": "TABORDA LAURA BEATRIZ",
+    "ClientId": "897163",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17931,
+    "NodeId": 321,
+    "Name": "GOMEZ JORGE",
+    "ClientId": "897171",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17932,
+    "NodeId": 321,
+    "Name": "GAMARRA EMILIA",
+    "ClientId": "897743",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17933,
+    "NodeId": 321,
+    "Name": "GONZALEZ RAMON",
+    "ClientId": "897747",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17934,
+    "NodeId": 321,
+    "Name": "INSAURRALDE ANA",
+    "ClientId": "897753",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17935,
+    "NodeId": 322,
+    "Name": "BRESAN MARIA DEL CARMEN",
+    "ClientId": " 53824",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17936,
+    "NodeId": 322,
+    "Name": "BONGARZONE OSVALDO",
+    "ClientId": " 70843",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17937,
+    "NodeId": 322,
+    "Name": "FERNANDEZ MARIA BELEN",
+    "ClientId": " 75194",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17938,
+    "NodeId": 322,
+    "Name": "CALI BEATRIZ MIRTA",
+    "ClientId": " 76032",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17939,
+    "NodeId": 322,
+    "Name": "PIGANATTA MARTHA CATALINA INES",
+    "ClientId": " 88378",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17940,
+    "NodeId": 322,
+    "Name": "ROMENO MARCOS ANTONIO",
+    "ClientId": " 96080",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17941,
+    "NodeId": 322,
+    "Name": "SCHONFELD CARLOS DANIEL",
+    "ClientId": "102209",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17942,
+    "NodeId": 322,
+    "Name": "ZAMBEZI NESTOR ARIEL",
+    "ClientId": "103915",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17943,
+    "NodeId": 321,
+    "Name": "MASSARO FRANCISCO ERMINIO",
+    "ClientId": "897076",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17944,
+    "NodeId": 322,
+    "Name": "ESC. 585 BARTOLOME MITRE",
+    "ClientId": "111463",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17945,
+    "NodeId": 322,
+    "Name": "ASCANIO JUANA ISABEL",
+    "ClientId": "112407",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17946,
+    "NodeId": 322,
+    "Name": "ZAURIN SILVANA",
+    "ClientId": "113355",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17947,
+    "NodeId": 322,
+    "Name": "PACE BIBIANA",
+    "ClientId": "115211",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17948,
+    "NodeId": 322,
+    "Name": "RAMELLO GUSTAVO ALDO",
+    "ClientId": "123244",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17949,
+    "NodeId": 322,
+    "Name": "GONZALEZ MARIA LUISA",
+    "ClientId": "126049",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17950,
+    "NodeId": 322,
+    "Name": "BALBUENA GERMAN ALBERTO",
+    "ClientId": "133620",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17951,
+    "NodeId": 322,
+    "Name": "CHEN GOUYONG",
+    "ClientId": "134855",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17952,
+    "NodeId": 322,
+    "Name": "ANSALDI NATALIA BEATRIZ",
+    "ClientId": "136604",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17953,
+    "NodeId": 322,
+    "Name": "FIORE HUGO ALBERTO",
+    "ClientId": "137503",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17954,
+    "NodeId": 322,
+    "Name": "OVEJERO ESTER",
+    "ClientId": "140110",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17955,
+    "NodeId": 322,
+    "Name": "STRAZZABOSCHI PAULA VALERIA",
+    "ClientId": "140616",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17956,
+    "NodeId": 322,
+    "Name": "PAPAGIANI MONICA LAURA",
+    "ClientId": "142020",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17957,
+    "NodeId": 322,
+    "Name": "BIAGI JAVIER ALEJANDRO",
+    "ClientId": "147336",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17958,
+    "NodeId": 322,
+    "Name": "SANTA MARIA NORA NANCY",
+    "ClientId": "148463",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17959,
+    "NodeId": 322,
+    "Name": "ZABALA CARLOS DAVID",
+    "ClientId": "111813",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17960,
+    "NodeId": 100035,
+    "Name": "ZABALA CARLOS DAVID",
+    "ClientId": "111813",
+    "ClientState": "1",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17961,
+    "NodeId": 100036,
+    "Name": "ZABALA CARLOS DAVID",
+    "ClientId": "111813",
+    "ClientState": "0",
+    "ValidityFrom": "2021-02-26",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17962,
+    "NodeId": 100040,
+    "Name": "FERREIRA DE SOUSA",
+    "ClientId": "43667",
+    "ClientState": "1",
+    "ValidityFrom": "2021-05-29",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  },
+  {
+    "Id": 17963,
+    "NodeId": 100040,
+    "Name": "FERREIRA DE SOUSA2",
+    "ClientId": "43672",
+    "ClientState": "1",
+    "ValidityFrom": "2021-05-29",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00"
+  }
+]

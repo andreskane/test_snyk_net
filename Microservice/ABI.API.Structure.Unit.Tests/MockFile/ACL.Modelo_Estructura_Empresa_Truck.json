@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "Name": "ARGENTINA",
+    "BusinessCode": "1",
+    "StructureModelId": 1
+  },
+  {
+    "Id": 2,
+    "Name": "URUGUAY",
+    "BusinessCode": "2",
+    "StructureModelId": 1
+  },
+  {
+    "Id": 3,
+    "Name": "CHILE",
+    "BusinessCode": "4",
+    "StructureModelId": 1
+  },
+  {
+    "Id": 4,
+    "Name": "PARAGUAY",
+    "BusinessCode": "5",
+    "StructureModelId": 1
+  },
+  {
+    "Id": 5,
+    "Name": "BOLIVIA",
+    "BusinessCode": "6",
+    "StructureModelId": 1
+  }
+]

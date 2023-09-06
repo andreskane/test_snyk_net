@@ -1,0 +1,111 @@
+[{
+        "Id": 1,
+        "Name": "ESTRUCTURA DEMO",
+        "ShortName": "ESTDE",
+        "Description": "Ejemplo de Modelo estructura",
+        "Active": true,
+        "CanBeExportedToTruck": false,
+        "Code": "VTE",
+        "CountryId": 1
+    },
+    {
+        "Id": 9999,
+        "Name": "DELETEABLE",
+        "ShortName": "DEL",
+        "Description": "Deleteable MOCK",
+        "Active": true,
+        "CanBeExportedToTruck": false,
+        "Code": "VTI",
+        "CountryId": 1
+    },
+    {
+        "Id": 10000,
+        "Name": "NOTREMOVE",
+        "ShortName": "NR",
+        "Description": "Not removable MOCK",
+        "Active": true,
+        "CanBeExportedToTruck": true,
+        "Code": "VTO",
+        "CountryId": 1
+    },
+    {
+        "Id": 10001,
+        "Name": "DELETEABLE",
+        "ShortName": "DEL",
+        "Description": "Not removable MOCK",
+        "Active": true,
+        "CanBeExportedToTruck": true,
+        "Code": "VTU",
+        "CountryId": 1
+    },
+    {
+        "Id": 10002,
+        "Name": "DELETEABLE",
+        "ShortName": "DEL",
+        "Description": "Not removable MOCK",
+        "Active": true,
+        "CanBeExportedToTruck": true,
+        "Code": "VTA",
+        "CountryId": 1
+    },
+    {
+        "Id": 10003,
+        "Name": "DELETEABLE",
+        "ShortName": "DEL",
+        "Description": "Not removable MOCK",
+        "Active": true,
+        "CanBeExportedToTruck": true,
+        "Code": "VTC",
+        "CountryId": 1
+    },
+    {
+        "Id": 10004,
+        "Name": "DELETEABLE",
+        "ShortName": "DEL",
+        "Description": "Not removable MOCK",
+        "Active": true,
+        "CanBeExportedToTruck": true,
+        "Code": "VTB",
+        "CountryId": 1
+    },
+    {
+        "Id": 10005,
+        "Name": "NOTREMOVEABLE",
+        "ShortName": "NR",
+        "Description": "Not removable MOCK",
+        "Active": true,
+        "CanBeExportedToTruck": true,
+        "Code": "VTD",
+        "CountryId": 1
+    },
+    {
+        "Id": 10006,
+        "Name": "NOTREMOVEABLE",
+        "ShortName": "NR",
+        "Description": "Not removable MOCK",
+        "Active": true,
+        "CanBeExportedToTruck": true,
+        "Code": "VTD",
+        "CountryId": 1
+    },
+    {
+        "Id": 10007,
+        "Name": "NOTRUCK",
+        "ShortName": "NT",
+        "Description": "no truck",
+        "Active": true,
+        "CanBeExportedToTruck": false,
+        "Code": "NET",
+        "CountryId": 1
+    },
+    {
+        "Id": 10008,
+        "Name": "NOTREMOVEABLE",
+        "ShortName": "NR",
+        "Description": "Not removable MOCK",
+        "Active": true,
+        "CanBeExportedToTruck": true,
+        "Code": "VTD",
+        "CountryId": 1
+    }
+]

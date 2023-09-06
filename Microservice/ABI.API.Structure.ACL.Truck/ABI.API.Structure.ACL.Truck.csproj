@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <ProjectGuid>{9A19103F-16F7-4668-BE54-9A1E7A4F7556}</ProjectGuid>
+
+	  <TargetFramework>net5.0</TargetFramework>
+	  <AssemblyVersion>1.5.23.4</AssemblyVersion>
+	  <FileVersion>1.5.23.4</FileVersion>
+	  <Version>1.5.23.4</Version>
+    <CodeAnalysisRuleSet>..\.sonarlint\ab-inbev-las_abi-api-estructurascsharp.ruleset</CodeAnalysisRuleSet>
+    <Configurations>Debug;Release;Docker;TestAutomation</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20201030192559_add_Table_Bandeja.cs" />
+    <Compile Remove="Migrations\20201030192559_add_Table_Bandeja.Designer.cs" />
+    <Compile Remove="Migrations\20210310180608_Versioned.cs" />
+    <Compile Remove="Migrations\20210310180608_Versioned.Designer.cs" />
+    <Compile Remove="Migrations\20210310181221_Versioned.cs" />
+    <Compile Remove="Migrations\20210310181221_Versioned.Designer.cs" />
+    <Compile Remove="Migrations\20210310203824_Versioned.cs" />
+    <Compile Remove="Migrations\20210310203824_Versioned.Designer.cs" />
+    <Compile Remove="Migrations\20210310210412_Versioned.cs" />
+    <Compile Remove="Migrations\20210310210412_Versioned.Designer.cs" />
+    <Compile Remove="Migrations\20210311200716_Update-Versioned.cs" />
+    <Compile Remove="Migrations\20210311200716_Update-Versioned.Designer.cs" />
+    <Compile Remove="Migrations\20210311222139_Update-Versioned.cs" />
+    <Compile Remove="Migrations\20210311222139_Update-Versioned.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\.sonarlint\ab-inbev-las_abi-api-estructuras\CSharp\SonarLint.xml" Link="SonarLint.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ABI.Framework.MS.Caching" Version="5.0.1" />
+    <PackageReference Include="ABI.Framework.MS.Common" Version="5.0.1" />
+    <PackageReference Include="ABI.Framework.MS.Helpers" Version="5.0.2" />
+    <PackageReference Include="ABI.Framework.MS.Infrastructure" Version="5.0.1" />
+    <PackageReference Include="ABI.Framework.MS.Messages" Version="5.0.3" />
+    <PackageReference Include="ABI.Framework.MS.Net" Version="5.0.2.1" />
+    <PackageReference Include="ABI.Framework.MS.Repository" Version="5.0.1" />
+    <PackageReference Include="ABI.Framework.MS.Service" Version="5.0.1" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Coravel" Version="4.0.2" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.17.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Logging" Version="6.11.1" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ABI.API.Structure.APIClient.Truck\ABI.API.Structure.APIClient.Truck.csproj" />
+    <ProjectReference Include="..\ABI.API.Structure.Infrastructure\ABI.API.Structure.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

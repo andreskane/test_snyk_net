@@ -1,0 +1,14 @@
+
+  {
+    "nodo_id": 588,
+    "Name": "DITPAT ZAR",
+    "Code": "15562",
+    "LevelId": 8,
+    "ActiveNode": true,
+    "AttentionModeId": 10,
+    "EmployeeId": 12310,
+    "NodeIdParent": 608,
+    "ValidityFrom": "2020-10-13",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00",
+    "ParentNodeCode": "7030"
+  }

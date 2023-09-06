@@ -1,0 +1,9 @@
+{
+  "result": true,
+  "messages": [],
+  "statusResponse": {
+    "code": 200,
+    "message": "OK"
+  },
+  "errors": null
+}

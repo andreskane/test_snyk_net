@@ -1,0 +1,18 @@
+[
+  {
+    "Id": 1,
+    "ResourceId": 1,
+    "TruckId": "1",
+    "IsVacant": true,
+    "VendorCategory": "S",
+    "CountryId": 1
+  },
+  {
+    "Id": 2,
+    "ResourceId": 2,
+    "TruckId": "2",
+    "IsVacant": false,
+    "VendorCategory": "S",
+    "CountryId": 1
+  }
+]

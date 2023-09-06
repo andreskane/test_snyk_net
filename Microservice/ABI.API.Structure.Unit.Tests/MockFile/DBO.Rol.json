@@ -1,0 +1,205 @@
+[
+  {
+    "Id": 1,
+    "Name": "ACTIVADOR",
+    "ShortName": "ACT",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 2,
+    "Name": "ACTIVADOR C-STORES",
+    "ShortName": "ACT C-S",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 3,
+    "Name": "BDR CRAFT",
+    "ShortName": "BDR CR",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 4,
+    "Name": "BDR HE",
+    "ShortName": "BDR HE",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 5,
+    "Name": "DIRECTOR",
+    "ShortName": "DIR",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 6,
+    "Name": "EJECUTIVO DE VENTAS",
+    "ShortName": "EDV",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 7,
+    "Name": "EJECUTIVO DE VENTAS HE",
+    "ShortName": "EDV HE",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 8,
+    "Name": "GERENTE",
+    "ShortName": "GTE",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 9,
+    "Name": "INTERNO KA",
+    "ShortName": "INT KA",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 10,
+    "Name": "JEFE DE DISTRIBUIDORES",
+    "ShortName": "JDD",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 11,
+    "Name": "JEFE DE VENTAS",
+    "ShortName": "JDV",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 12,
+    "Name": "MERCHAND",
+    "ShortName": "MERCH",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 13,
+    "Name": "PROMOTOR",
+    "ShortName": "PROM",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 14,
+    "Name": "REPOSITOR",
+    "ShortName": "REPO",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 15,
+    "Name": "RESPONSABLE DE CADENA",
+    "ShortName": "RC",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 16,
+    "Name": "SIN ROL",
+    "ShortName": "SR",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 17,
+    "Name": "SUPERVISOR",
+    "ShortName": "SV",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 18,
+    "Name": "SUPERVISOR TS",
+    "ShortName": "SV TS",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 19,
+    "Name": "TELESALES",
+    "ShortName": "TS",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 20,
+    "Name": "VE AUTOSERVICIOS",
+    "ShortName": "VE AS",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 21,
+    "Name": "VE CONJUNTA",
+    "ShortName": "VE CO",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 22,
+    "Name": "VE MAYORISTA",
+    "ShortName": "VE MA",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 23,
+    "Name": "VE TEMPORADA",
+    "ShortName": "VE TE",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 24,
+    "Name": "VP VENTAS",
+    "ShortName": "VP",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 25,
+    "Name": "PROMOTOR K+T",
+    "ShortName": "PROM K+T",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 26,
+    "Name": "PROMOTOR AS",
+    "ShortName": "PROM AS",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 99999,
+    "Name": "DELETEABLE",
+    "ShortName": "DEL",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 100000,
+    "Name": "DELETEABLE",
+    "ShortName": "DEL",
+    "Active": true,
+    "Tags": ""
+  },
+  {
+    "Id": 100001,
+    "Name": "DELETEABLE",
+    "ShortName": "DEL",
+    "Active": true,
+    "Tags": ""
+  }
+]

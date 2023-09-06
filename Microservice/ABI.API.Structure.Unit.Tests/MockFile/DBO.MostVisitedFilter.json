@@ -1,0 +1,29 @@
+[
+	{
+		"Id": 1,
+		"Description": "TEST1",
+		"IdValue": 1,
+		"FilterType": 1,
+		"Quantity": 1,
+		"StructureId": 2,
+		"UserId": "3E8FA66E-3619-48F0-9F0B-60500005D7EF"
+	},
+	{
+		"Id": 2,
+		"Description": "TEST2",
+		"IdValue": 1,
+		"FilterType": 2,
+		"Quantity": 1,
+		"StructureId": 2,
+		"UserId": "3E8FA66E-3619-48F0-9F0B-60500005D7EF"
+	},
+	{
+		"Id": 3,
+		"Description": "TEST2",
+		"IdValue": 1,
+		"FilterType": 3,
+		"Quantity": 1,
+		"StructureId": 2,
+		"UserId": "3E8FA66E-3619-48F0-9F0B-60500005D7EF"
+	}
+]

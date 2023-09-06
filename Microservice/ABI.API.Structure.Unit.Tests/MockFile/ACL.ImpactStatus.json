@@ -1,0 +1,67 @@
+[
+  {
+    "Id": 1,
+    "Name": "Creacion Nueva Verción",
+    "Code": "CNV"
+  },
+  {
+    "Id": 2,
+    "Name": "Envia a Bandejas ",
+    "Code": "EB"
+  },
+  {
+    "Id": 3,
+    "Name": "Aplica Cambios Programados",
+    "Code": "ACP"
+  },
+  {
+    "Id": 4,
+    "Name": "Aplica Cambios en el momento",
+    "Code": "ACM"
+  },
+  {
+    "Id": 5,
+    "Name": "Desestima la Versión",
+    "Code": "DV"
+  },
+  {
+    "Id": 6,
+    "Name": "Cambio de fecha de Impacto",
+    "Code": "CFI"
+  },
+  {
+    "Id": 100,
+    "Name": "Error Api envio al Crear nueva Version",
+    "Code": "ECNV"
+  },
+  {
+    "Id": 101,
+    "Name": "Error Api Truck al Enviar a las Bandejas ",
+    "Code": "EEB"
+  },
+  {
+    "Id": 102,
+    "Name": "Error Api Truck envio Aplica Cambios Progamados",
+    "Code": "EACP"
+  },
+  {
+    "Id": 103,
+    "Name": "Error Api Truck envio Aplica Cambios en el momento",
+    "Code": "EACM"
+  },
+  {
+    "Id": 104,
+    "Name": "Error Api Truck envio Desestima la Versión",
+    "Code": "EDV"
+  },
+  {
+    "Id": 105,
+    "Name": "Error Api Truck envio Cambio de fecha de Impacto",
+    "Code": "ECFI"
+  },
+  {
+    "Id": 106,
+    "Name": "Error en Bandeja, hay errores informados por truck",
+    "Code": "EBT"
+  }
+]

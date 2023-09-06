@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "Name": "Creación Nueva Versión",
+    "Code": "CNV"
+  },
+  {
+    "Id": 2,
+    "Name": "Envía a Bandejas",
+    "Code": "EB"
+  },
+  {
+    "Id": 3,
+    "Name": "Aplica Cambios Programados",
+    "Code": "ACP"
+  },
+  {
+    "Id": 4,
+    "Name": "Aplica Cambios en el momento",
+    "Code": "ACM"
+  },
+  {
+    "Id": 5,
+    "Name": "Desestima la Versión",
+    "Code": "DV"
+  },
+  {
+    "Id": 6,
+    "Name": "Cambio de fecha de Impacto",
+    "Code": "CFI"
+  },
+  {
+    "Id": 7,
+    "Name": "Datos enviados a las Bandejas",
+    "Code": "DEB"
+  },
+  {
+    "Id": 8,
+    "Name": "Pasa a edición la Versión",
+    "Code": "PEV"
+  },
+  {
+    "Id": 9,
+    "Name": "Rechazo Versión",
+    "Code": "RV"
+  },
+  {
+    "Id": 10,
+    "Name": "Transformación Portal a Truck",
+    "Code": "TPT"
+  },
+  {
+    "Id": 11,
+    "Name": "Información General del Proceso",
+    "Code": "IGP"
+  },
+  {
+    "Id": 50,
+    "Name": "Estado Pendiente de envió",
+    "Code": "EPE"
+  },
+  {
+    "Id": 51,
+    "Name": "Estado Procesando",
+    "Code": "EPR"
+  },
+  {
+    "Id": 52,
+    "Name": "Estado Aceptado",
+    "Code": "EAC"
+  },
+  {
+    "Id": 53,
+    "Name": "Estado Operativo",
+    "Code": "EOP"
+  },
+  {
+    "Id": 54,
+    "Name": "Estado Rechazado",
+    "Code": "EREC"
+  },
+  {
+    "Id": 100,
+    "Name": "Error Api envió al Crear nueva Versión",
+    "Code": "ECNV"
+  },
+  {
+    "Id": 101,
+    "Name": "Error Api Truck al Enviar a las Bandejas ",
+    "Code": "EEB"
+  },
+  {
+    "Id": 102,
+    "Name": "Error Api Truck envió Aplica Cambios Programados",
+    "Code": "EACP"
+  },
+  {
+    "Id": 103,
+    "Name": "Error Api Truck envió Aplica Cambios en el momento",
+    "Code": "EACM"
+  },
+  {
+    "Id": 104,
+    "Name": "Error Api Truck envió Desestima la Versión",
+    "Code": "EDV"
+  },
+  {
+    "Id": 105,
+    "Name": "Error Api Truck envió Cambio de fecha de Impacto",
+    "Code": "ECFI"
+  },
+  {
+    "Id": 106,
+    "Name": "Error en Bandeja, hay errores informados por truck",
+    "Code": "EBT"
+  },
+  {
+    "Id": 107,
+    "Name": "Error en transformación de Portal a Truck",
+    "Code": "ETPT"
+  }
+]

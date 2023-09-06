@@ -1,0 +1,143 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+	 <!-- SonarQube needs this -->
+  <ProjectGuid>{B29C685A-ED3C-4CCA-85CC-E22B525CA54E}</ProjectGuid>
+	  <AssemblyVersion>1.5.23.4</AssemblyVersion>
+	  <FileVersion>1.5.23.4</FileVersion>
+	  <Version>1.5.23.4</Version>
+  <CodeAnalysisRuleSet>..\.sonarlint\ab-inbev-las_abi-api-estructurascsharp.ruleset</CodeAnalysisRuleSet>
+  <Configurations>Debug;Release;Docker;TestAutomation</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AggregatesModel\**" />
+    <Compile Remove="EntityConfigurations\ImportProcess\**" />
+    <Compile Remove="Events\**" />
+    <Compile Remove="Repositories\ACL\**" />
+    <Compile Remove="Repositories\ImportProcess\**" />
+    <Compile Remove="Repositories\Interfaces\ImportProcess\**" />
+    <EmbeddedResource Remove="AggregatesModel\**" />
+    <EmbeddedResource Remove="EntityConfigurations\ImportProcess\**" />
+    <EmbeddedResource Remove="Events\**" />
+    <EmbeddedResource Remove="Repositories\ACL\**" />
+    <EmbeddedResource Remove="Repositories\ImportProcess\**" />
+    <EmbeddedResource Remove="Repositories\Interfaces\ImportProcess\**" />
+    <None Remove="AggregatesModel\**" />
+    <None Remove="EntityConfigurations\ImportProcess\**" />
+    <None Remove="Events\**" />
+    <None Remove="Repositories\ACL\**" />
+    <None Remove="Repositories\ImportProcess\**" />
+    <None Remove="Repositories\Interfaces\ImportProcess\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200825151632_Grafo.cs" />
+    <Compile Remove="Migrations\20200825151632_Grafo.Designer.cs" />
+    <Compile Remove="Migrations\20200825151849_Grafo.cs" />
+    <Compile Remove="Migrations\20200825151849_Grafo.Designer.cs" />
+    <Compile Remove="Migrations\20200825152545_Grafo.cs" />
+    <Compile Remove="Migrations\20200825152545_Grafo.Designer.cs" />
+    <Compile Remove="Migrations\20200825153648_Grafo.cs" />
+    <Compile Remove="Migrations\20200825153648_Grafo.Designer.cs" />
+    <Compile Remove="Migrations\20200825154033_Grafo.cs" />
+    <Compile Remove="Migrations\20200825154033_Grafo.Designer.cs" />
+    <Compile Remove="Migrations\20200825154229_Grafo.cs" />
+    <Compile Remove="Migrations\20200825154229_Grafo.Designer.cs" />
+    <Compile Remove="Migrations\20200914195254_Remove_Role_ExportTruck.cs" />
+    <Compile Remove="Migrations\20200914195254_Remove_Role_ExportTruck.Designer.cs" />
+    <Compile Remove="Migrations\20200914234115_Alter_Node_Defination.cs" />
+    <Compile Remove="Migrations\20200914234115_Alter_Node_Defination.Designer.cs" />
+    <Compile Remove="Migrations\20200929184955_AddTableTypeVendorTruckPortal.cs" />
+    <Compile Remove="Migrations\20200929184955_AddTableTypeVendorTruckPortal.Designer.cs" />
+    <Compile Remove="Migrations\20200929185404_AddTableTypeVendorTruckPortal.cs" />
+    <Compile Remove="Migrations\20200929185404_AddTableTypeVendorTruckPortal.Designer.cs" />
+    <Compile Remove="Migrations\20200929194414_AddTableTypeVendorTruckPortal.cs" />
+    <Compile Remove="Migrations\20200929194414_AddTableTypeVendorTruckPortal.Designer.cs" />
+    <Compile Remove="Migrations\20201203131900_Alter_ChangeTracking_idUser_to_guid.cs" />
+    <Compile Remove="Migrations\20201203131900_Alter_ChangeTracking_idUser_to_guid.Designer.cs" />
+    <Compile Remove="Migrations\20201203132539_Alter_ChangeTracking_idUser_to_guid.cs" />
+    <Compile Remove="Migrations\20201203132539_Alter_ChangeTracking_idUser_to_guid.Designer.cs" />
+    <Compile Remove="Migrations\20201203133130_Alter_ChangeTracking_idUser_to_guid.cs" />
+    <Compile Remove="Migrations\20201203133130_Alter_ChangeTracking_idUser_to_guid.Designer.cs" />
+    <Compile Remove="Migrations\20201203204843_Alter_ChangeTracking_add_idStructure.cs" />
+    <Compile Remove="Migrations\20201203204843_Alter_ChangeTracking_add_idStructure.Designer.cs" />
+    <Compile Remove="Migrations\20210120204221_Add_Property_motivo_estado_id.cs" />
+    <Compile Remove="Migrations\20210120204221_Add_Property_motivo_estado_id.Designer.cs" />
+    <Compile Remove="Migrations\20210121143558_XXXX.cs" />
+    <Compile Remove="Migrations\20210121143558_XXXX.Designer.cs" />
+    <Compile Remove="Migrations\20210121150402_Motive-State-Nodos.cs" />
+    <Compile Remove="Migrations\20210121150402_Motive-State-Nodos.Designer.cs" />
+    <Compile Remove="Migrations\20210128204906_Alter Arista ValidityFrom NOT NULL.cs" />
+    <Compile Remove="Migrations\20210128204906_Alter Arista ValidityFrom NOT NULL.Designer.cs" />
+    <Compile Remove="Migrations\20210128205043_Alter_Arista_ValidityFrom_NOT_NULL.cs" />
+    <Compile Remove="Migrations\20210128205043_Alter_Arista_ValidityFrom_NOT_NULL.Designer.cs" />
+    <Compile Remove="Migrations\20210224141416_StructureClientNode.cs" />
+    <Compile Remove="Migrations\20210224141416_StructureClientNode.Designer.cs" />
+    <Compile Remove="Migrations\20210323190340_Change_tracking.cs" />
+    <Compile Remove="Migrations\20210323190340_Change_tracking.Designer.cs" />
+    <Compile Remove="Migrations\20210325133844_TrackingStatus.cs" />
+    <Compile Remove="Migrations\20210325133844_TrackingStatus.Designer.cs" />
+    <Compile Remove="Migrations\20210329174944_ChangeTrackingStatus.cs" />
+    <Compile Remove="Migrations\20210329174944_ChangeTrackingStatus.Designer.cs" />
+    <Compile Remove="Migrations\20210329175831_ChangeTrackingStatus.cs" />
+    <Compile Remove="Migrations\20210329175831_ChangeTrackingStatus.Designer.cs" />
+    <Compile Remove="Migrations\20210329180633_ChangeTrackingStatus.cs" />
+    <Compile Remove="Migrations\20210329180633_ChangeTrackingStatus.Designer.cs" />
+    <Compile Remove="Migrations\20210329181420_ChangeTrackingStatus.cs" />
+    <Compile Remove="Migrations\20210329181420_ChangeTrackingStatus.Designer.cs" />
+    <Compile Remove="Migrations\20210329182226_ChangeTrackingStatus.cs" />
+    <Compile Remove="Migrations\20210329182226_ChangeTrackingStatus.Designer.cs" />
+    <Compile Remove="Migrations\20210329182916_ChangeTrackingStatus.cs" />
+    <Compile Remove="Migrations\20210329182916_ChangeTrackingStatus.Designer.cs" />
+    <Compile Remove="Migrations\20210329183537_ChangeTrackingStatus.cs" />
+    <Compile Remove="Migrations\20210329183537_ChangeTrackingStatus.Designer.cs" />
+    <Compile Remove="Migrations\20210409153620_Country.cs" />
+    <Compile Remove="Migrations\20210409153620_Country.Designer.cs" />
+    <Compile Remove="Migrations\20210409160654_Country.cs" />
+    <Compile Remove="Migrations\20210409160654_Country.Designer.cs" />
+    <Compile Remove="Migrations\20210409162914_Country.cs" />
+    <Compile Remove="Migrations\20210409162914_Country.Designer.cs" />
+    <Compile Remove="Migrations\20210409163238_Country.cs" />
+    <Compile Remove="Migrations\20210409163238_Country.Designer.cs" />
+    <Compile Remove="Migrations\20210409165046_Country.cs" />
+    <Compile Remove="Migrations\20210409165046_Country.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Repositories\LevelRepository.cs~RF7367d7a.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\.sonarlint\ab-inbev-las_abi-api-estructuras\CSharp\SonarLint.xml" Link="SonarLint.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ABI.Framework.MS.Caching" Version="5.0.1" />
+    <PackageReference Include="ABI.Framework.MS.Domain" Version="5.0.1" />
+    <PackageReference Include="ABI.Framework.MS.EFBulkExtensions" Version="5.0.1" />
+    <PackageReference Include="ABI.Framework.MS.Helpers" Version="5.0.2" />
+    <PackageReference Include="ABI.Framework.MS.Infrastructure" Version="5.0.1" />
+    <PackageReference Include="ABI.Framework.MS.Messages" Version="5.0.3" />
+    <PackageReference Include="ABI.Framework.MS.Net" Version="5.0.2.1" />
+    <PackageReference Include="ABI.Framework.MS.Repository" Version="5.0.1" />
+    <PackageReference Include="ABI.Framework.MS.Service" Version="5.0.1" />
+    <PackageReference Include="Autofac" Version="6.2.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.17.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
+  </ItemGroup>
+
+  
+  <ItemGroup>
+    <ProjectReference Include="..\ABI.API.Structure.Domain\ABI.API.Structure.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+{
+  "epeciniout": {
+    "Empresa": "001",
+    "FechaDesde": "20/10/20",
+    "FechaHasta": "99/12/31",
+    "LogSts": "",
+    "NroVer": "001309",
+    "TipoProceso": "NEW"
+  },
+  "msglog": {
+    "Level1": [
+      {
+        "ECLogFch": "2020-10-13",
+        "ECLogID": "",
+        "ECLogSts": "PRC",
+        "ECLogTxt": "La versión fue creada con éxito.",
+        "eclogsec": 1
+      }
+    ]
+  }
+}

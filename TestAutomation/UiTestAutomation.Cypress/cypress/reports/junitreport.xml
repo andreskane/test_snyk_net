@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<testsuites failures="2" errors="0" tests="6">
+  <testsuite name="Root Suite" timestamp="2021-07-20T18:07:10" tests="0" file="cypress/integration/tests/ta_2.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="TA 2" timestamp="2021-07-20T18:07:10" tests="5" time="21.1650" failures="2">
+    <testcase name="TA 2 Should login succesfully and show the welcome message" time="2.3320" classname="Should login succesfully and show the welcome message"/>
+    <testcase name="TA 2 Should login succesfully and show the environment name" time="0.0000" classname="Should login succesfully and show the environment name">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;div.title-environment.ng-star-inserted&gt;&apos; to have text &apos; #{KubernetesEnv}# &apos;, but the text was &apos; Integracion &apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div.title-environment.ng-star-inserted>' to have text ' #{KubernetesEnv}# ', but the text was ' Integracion '
+    at Context.eval (https://abi-las-fe-wsc-dev.dev.abinbev-las.com/__cypress/tests?p=cypress\integration\tests\ta_2.spec.js:121:51)]]></failure>
+    </testcase>
+    <testcase name="TA 2 Should login succesfully and show the web app version" time="0.0000" classname="Should login succesfully and show the web app version">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;div.title-version&gt;&apos; to have text &apos; v 0.3.0720.3 &apos;, but the text was &apos; v 0.3.0720.7 &apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div.title-version>' to have text ' v 0.3.0720.3 ', but the text was ' v 0.3.0720.7 '
+    at Context.eval (https://abi-las-fe-wsc-dev.dev.abinbev-las.com/__cypress/tests?p=cypress\integration\tests\ta_2.spec.js:127:30)]]></failure>
+    </testcase>
+    <testcase name="TA 2 Should login succesfully, unfold the side menu and fold it again" time="13.8510" classname="Should login succesfully, unfold the side menu and fold it again"/>
+    <testcase name="TA 2 Should login and go to the Volumen Baseline home" time="4.9820" classname="Should login and go to the Volumen Baseline home"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2021-07-20T18:07:04" tests="0" file="cypress/integration/tests/ta_1.spec.js" time="0.0000" failures="0"/>
+  <testsuite name="TA 1" timestamp="2021-07-20T18:07:04" tests="1" time="3.3460" failures="0">
+    <testcase name="TA 1 Should login succesfully and show the welcome message" time="3.3460" classname="Should login succesfully and show the welcome message"/>
+  </testsuite>
+</testsuites>

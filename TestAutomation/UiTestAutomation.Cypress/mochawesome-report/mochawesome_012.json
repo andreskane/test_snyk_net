@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-07-20T15:19:14.843Z",
+    "end": "2021-07-20T15:19:47.120Z",
+    "duration": 32277,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bb31c391-db34-4f85-8536-eb97a9722f63",
+      "title": "",
+      "fullFile": "cypress/integration/tests/ta_1.spec.js",
+      "file": "cypress/integration/tests/ta_1.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a689e400-59cd-4850-9eda-8cf179911ab6",
+          "title": "paso 1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should login succesfully and show the welcome message",
+              "fullTitle": "paso 1 Should login succesfully and show the welcome message",
+              "timedOut": null,
+              "duration": 32106,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\ncy.visit(WSC_URL_DEV); // Verificando existencia del titulo en el home\ncy.get('.page-title').should('have.text', 'Bienvenido a WSC');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.page-title`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.page-title`, but never found it.\n    at Context.eval (https://abi-las-fe-wsc-dev.dev.abinbev-las.com/__cypress/tests?p=cypress\\integration\\tests\\ta_1.spec.js:111:27)",
+                "diff": null
+              },
+              "uuid": "7ffa2b5b-aef2-4669-bfec-e5d4c4bf9198",
+              "parentUUID": "a689e400-59cd-4850-9eda-8cf179911ab6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "7ffa2b5b-aef2-4669-bfec-e5d4c4bf9198"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 32106,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "xml": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

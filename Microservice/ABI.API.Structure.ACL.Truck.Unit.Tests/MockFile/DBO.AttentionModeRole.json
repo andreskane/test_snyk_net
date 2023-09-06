@@ -1,0 +1,82 @@
+[
+  {
+    "AttentionModeId": 3,
+    "RoleId": 1,
+    "Id": 1
+  },
+  {
+    "AttentionModeId": 3,
+    "RoleId": 3,
+    "Id": 2
+  },
+  {
+    "AttentionModeId": 3,
+    "RoleId": 4,
+    "Id": 3
+  },
+  {
+    "AttentionModeId": 5,
+    "RoleId": 9,
+    "Id": 4
+  },
+  {
+    "AttentionModeId": 6,
+    "RoleId": 2,
+    "Id": 5
+  },
+  {
+    "AttentionModeId": 6,
+    "RoleId": 12,
+    "Id": 6
+  },
+  {
+    "AttentionModeId": 8,
+    "RoleId": 13,
+    "Id": 7
+  },
+  {
+    "AttentionModeId": 9,
+    "RoleId": 14,
+    "Id": 8
+  },
+  {
+    "AttentionModeId": 12,
+    "RoleId": 20,
+    "Id": 9
+  },
+  {
+    "AttentionModeId": 12,
+    "RoleId": 21,
+    "Id": 10
+  },
+  {
+    "AttentionModeId": 12,
+    "RoleId": 22,
+    "Id": 11
+  },
+  {
+    "AttentionModeId": 12,
+    "RoleId": 23,
+    "Id": 12
+  },
+  {
+    "AttentionModeId": 13,
+    "RoleId": 19,
+    "Id": 13
+  },
+  {
+    "AttentionModeId": 8,
+    "RoleId": 25,
+    "Id": 14
+  },
+  {
+    "AttentionModeId": 8,
+    "RoleId": 26,
+    "Id": 15
+  },
+  {
+    "AttentionModeId": 10000,
+    "RoleId": 100000,
+    "Id": 10000
+  }
+]

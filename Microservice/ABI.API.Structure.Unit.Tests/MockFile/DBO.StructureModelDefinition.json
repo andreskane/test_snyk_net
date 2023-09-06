@@ -1,0 +1,129 @@
+[
+  {
+    "Id": 1,
+    "StructureModelId": 1,
+    "LevelId": 1,
+    "IsAttentionModeRequired": false,
+    "IsSaleChannelRequired": false
+  },
+  {
+    "Id": 2,
+    "StructureModelId": 1,
+    "LevelId": 2,
+    "ParentLevelId": 1,
+    "IsAttentionModeRequired": false,
+    "IsSaleChannelRequired": false
+  },
+  {
+    "Id": 3,
+    "StructureModelId": 1,
+    "LevelId": 3,
+    "ParentLevelId": 2,
+    "IsAttentionModeRequired": false,
+    "IsSaleChannelRequired": false
+  },
+  {
+    "Id": 4,
+    "StructureModelId": 1,
+    "LevelId": 5,
+    "ParentLevelId": 3,
+    "IsAttentionModeRequired": false,
+    "IsSaleChannelRequired": false
+  },
+  {
+    "Id": 5,
+    "StructureModelId": 1,
+    "LevelId": 6,
+    "ParentLevelId": 5,
+    "IsAttentionModeRequired": false,
+    "IsSaleChannelRequired": false
+  },
+  {
+    "Id": 6,
+    "StructureModelId": 1,
+    "LevelId": 7,
+    "ParentLevelId": 6,
+    "IsAttentionModeRequired": false,
+    "IsSaleChannelRequired": false
+  },
+  {
+    "Id": 7,
+    "StructureModelId": 1,
+    "LevelId": 8,
+    "ParentLevelId": 7,
+    "IsAttentionModeRequired": true,
+    "IsSaleChannelRequired": true
+  },
+  {
+    "Id": 9999,
+    "StructureModelId": 1,
+    "LevelId": 8,
+    "ParentLevelId": 7,
+    "IsAttentionModeRequired": true,
+    "IsSaleChannelRequired": true
+  },
+  {
+    "Id": 10000,
+    "StructureModelId": 10000,
+    "LevelId": 1,
+    "ParentLevelId": 1,
+    "IsAttentionModeRequired": true,
+    "IsSaleChannelRequired": true
+  },
+  {
+    "Id": 10001,
+    "StructureModelId": 1,
+    "LevelId": 8,
+    "ParentLevelId": 7,
+    "IsAttentionModeRequired": true,
+    "IsSaleChannelRequired": true
+  },
+  {
+    "Id": 10002,
+    "StructureModelId": 10003,
+    "LevelId": 1,
+    "ParentLevelId": 1,
+    "IsAttentionModeRequired": true,
+    "IsSaleChannelRequired": true
+  },
+  {
+    "Id": 10003,
+    "StructureModelId": 10004,
+    "LevelId": 1,
+    "ParentLevelId": 1,
+    "IsAttentionModeRequired": true,
+    "IsSaleChannelRequired": true
+  },
+  {
+    "Id": 10004,
+    "StructureModelId": 10005,
+    "LevelId": 1,
+    "ParentLevelId": null,
+    "IsAttentionModeRequired": true,
+    "IsSaleChannelRequired": true
+  },
+  {
+    "Id": 10005,
+    "StructureModelId": 10005,
+    "LevelId": 2,
+    "ParentLevelId": 1,
+    "IsAttentionModeRequired": true,
+    "IsSaleChannelRequired": true
+  },
+  {
+    "Id": 10006,
+    "StructureModelId": 10007,
+    "LevelId": 2,
+    "ParentLevelId": 1,
+    "IsAttentionModeRequired": true,
+    "IsSaleChannelRequired": true
+  },
+  {
+    "Id": 10007,
+    "StructureModelId": 10008,
+    "LevelId": 2,
+    "ParentLevelId": 1,
+    "IsAttentionModeRequired": true,
+    "IsSaleChannelRequired": true
+  }
+]

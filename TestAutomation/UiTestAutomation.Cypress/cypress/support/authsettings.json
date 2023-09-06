@@ -1,0 +1,9 @@
+{
+  "authority": "https://login.microsoftonline.com/cef04b19-7776-4a94-b89b-375c77a8f936",
+  "clientId": "d2c07587-ccd8-415e-9d7d-1bcf14f33ffc",
+  "clientSecret": ".Ak_M-39blA8mZpODp200JO7sBZ4ZK8cB-",
+  "apiScopes": ["api://d2c07587-ccd8-415e-9d7d-1bcf14f33ffc/access_as_user"],
+   "apiScopes2":["user.read"],
+  "username": "allmobilesso@quilmes.com.ar",
+  "password": "Quilmes.1890"
+}

@@ -1,0 +1,28 @@
+{
+    "EstructuraVersiones": {
+        "Level1": [
+            {
+                "ECFecAlt": "2021-05-07",
+                "ECFecApr": "2021-05-07",
+                "ECFecDes": "2021-05-07",
+                "ECFecHas": "2999-12-31",
+                "ECFecMod": "2021-05-07",
+                "ECFecTra": "2021-05-07",
+                "ECHorAlt": "17:23:04",
+                "ECHorApr": "17:25:26",
+                "ECHorMod": "17:24:03",
+                "ECHorTra": "17:25:37",
+                "ECIncMsg": "",
+                "ECIndTra": "S",
+                "ECStsCod": "APR",
+                "ECTipCre": "",
+                "ECUsuAlt": "AR3ROBOT",
+                "ECUsuApr": "AR3ROBOT",
+                "ECUsuMod": "AR3ROBOT",
+                "ECUsuTra": "AR3ROBOT",
+                "ECVerNro": 1524,
+                "EmpId": 1
+            }
+        ]
+    }
+}

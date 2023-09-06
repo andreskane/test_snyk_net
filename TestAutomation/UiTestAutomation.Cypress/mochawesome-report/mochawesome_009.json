@@ -1,0 +1,180 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-07-20T11:42:58.131Z",
+    "end": "2021-07-20T11:43:13.195Z",
+    "duration": 15064,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a4a978ec-e681-42a7-a62a-66960f07f234",
+      "title": "",
+      "fullFile": "cypress/integration/tests/ta_2.spec.js",
+      "file": "cypress/integration/tests/ta_2.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a07ab42a-1db3-4cef-9dce-eb4187aff990",
+          "title": "paso 1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should login succesfully and show the welcome message",
+              "fullTitle": "paso 1 Should login succesfully and show the welcome message",
+              "timedOut": null,
+              "duration": 2921,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\ncy.visit(WSC_URL_DEV); // Verificando existencia del titulo en el home\ncy.get('.page-title').should('have.text', 'Bienvenido a WSC');",
+              "err": {},
+              "uuid": "de277620-ba36-419a-b77e-bc60d926bb3f",
+              "parentUUID": "a07ab42a-1db3-4cef-9dce-eb4187aff990",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should login succesfully and show the environment name",
+              "fullTitle": "paso 1 Should login succesfully and show the environment name",
+              "timedOut": null,
+              "duration": 523,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\n// Verificando existencia del titulo en el home\ncy.get('.title-environment.ng-star-inserted').should('have.text', Cypress.config(\"K8Enviroment\"));",
+              "err": {},
+              "uuid": "95a52a3f-b19e-49f2-b57c-136ac1590f90",
+              "parentUUID": "a07ab42a-1db3-4cef-9dce-eb4187aff990",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should login succesfully and show the web app version",
+              "fullTitle": "paso 1 Should login succesfully and show the web app version",
+              "timedOut": null,
+              "duration": 1184,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\ncy.visit(\"/\"); // Verificando existencia del titulo en el home\ncy.get('.title-version').should('have.text', STR_VERSION);",
+              "err": {},
+              "uuid": "47a6014d-b6f5-4703-a3a6-c7c6f25d6d74",
+              "parentUUID": "a07ab42a-1db3-4cef-9dce-eb4187aff990",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should login succesfully, unfold the side menu and fold it again",
+              "fullTitle": "paso 1 Should login succesfully, unfold the side menu and fold it again",
+              "timedOut": null,
+              "duration": 5368,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\ncy.visit(\"/\");\ncy.wait(2000); // Desplegando el menú lateral\ncy.get('[src=\"assets/menu/menu.svg\"]').click();\ncy.wait(2000); // Plegando el menú lateral\ncy.get('[src=\"assets/menu/active.svg\"]').click();",
+              "err": {},
+              "uuid": "eeeaf123-1414-4219-9825-b8995c310d08",
+              "parentUUID": "a07ab42a-1db3-4cef-9dce-eb4187aff990",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should login and go to the Volumen Baseline home",
+              "fullTitle": "paso 1 Should login and go to the Volumen Baseline home",
+              "timedOut": null,
+              "duration": 4990,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\ncy.visit(WSC_URL_DEV);\ncy.wait(2000); // Desplegando el menú lateral\ncy.get('[src=\"assets/menu/fuentes.svg\"]').click();\ncy.wait(2000); // Plegando el menú lateral\ncy.get('[tabindex=\"0\"]').click();",
+              "err": {},
+              "uuid": "b5e2d148-f9bf-4029-90cf-a02d85706893",
+              "parentUUID": "a07ab42a-1db3-4cef-9dce-eb4187aff990",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "de277620-ba36-419a-b77e-bc60d926bb3f",
+            "95a52a3f-b19e-49f2-b57c-136ac1590f90",
+            "47a6014d-b6f5-4703-a3a6-c7c6f25d6d74",
+            "eeeaf123-1414-4219-9825-b8995c310d08",
+            "b5e2d148-f9bf-4029-90cf-a02d85706893"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14986,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

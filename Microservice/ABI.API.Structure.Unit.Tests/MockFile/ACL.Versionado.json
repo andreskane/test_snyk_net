@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "StructureId": 1,
+    "Date": "2021-05-07T17:17:48.1381185",
+    "Version": "001525",
+    "Validity": "2021-05-10",
+    "StatusId": 4,
+    "User": "USER QUILMES (LAS-V)",
+    "GenerateVersionDate": "2021-05-07T17:35:20.3635118"
+  },
+  {
+    "Id": 2,
+    "StructureId": 12,
+    "Date": "2021-05-07T17:17:48.1381185",
+    "Version": "001525",
+    "Validity": "2021-08-01",
+    "StatusId": 5,
+    "User": "USER QUILMES (LAS-V)",
+    "GenerateVersionDate": "2021-05-07T17:35:20.3635118"
+  },
+  {
+    "Id": 3,
+    "StructureId": 12,
+    "Date": "2021-07-07T17:17:48.1381185",
+    "Version": "001526",
+    "Validity": "2021-08-01",
+    "StatusId": 6,
+    "User": "USER QUILMES (LAS-V)",
+    "GenerateVersionDate": "2021-07-07T17:35:20.3635118"
+  }
+]

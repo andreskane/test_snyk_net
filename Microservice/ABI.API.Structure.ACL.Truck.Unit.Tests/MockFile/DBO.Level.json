@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "PAÍS",
+    "ShortName": "PAI",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "id": 2,
+    "name": "ÁREA",
+    "ShortName": "ARE",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "id": 3,
+    "name": "REGIÓN",
+    "ShortName": "REG",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "id": 4,
+    "name": "SUBREGIÓN - TIPO",
+    "ShortName": "STI",
+    "Description": "-",
+    "Active": false
+  },
+  {
+    "id": 5,
+    "name": "SUBREGIÓN",
+    "ShortName": "SUB",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "id": 6,
+    "name": "JEFATURA",
+    "ShortName": "JEF",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "id": 7,
+    "name": "ZONA",
+    "ShortName": "ZONA",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "id": 8,
+    "name": "TERRITORIO",
+    "ShortName": "TERRE",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "id": 9999,
+    "name": "DELETEABLE",
+    "ShortName": "DEL",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "id": 100000,
+    "name": "DELETEABLE",
+    "ShortName": "DEL",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "id": 100001,
+    "name": "DELETEABLE",
+    "ShortName": "DEL",
+    "Description": "-",
+    "Active": true
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "Id": 1,
+    "VendorTruckId": 26,
+    "VendorTruckName": "RI MAYORISTA",
+    "AttentionModeId": 1,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 2,
+    "VendorTruckId": 22,
+    "VendorTruckName": "R.INTERNO",
+    "AttentionModeId": 2,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 3,
+    "VendorTruckId": 25,
+    "VendorTruckName": "ACTIVADOR",
+    "AttentionModeId": 3,
+    "RoleId": 1,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 4,
+    "VendorTruckId": 28,
+    "VendorTruckName": "BDR CRAFT",
+    "AttentionModeId": 3,
+    "RoleId": 3,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 5,
+    "VendorTruckId": 29,
+    "VendorTruckName": "BDR HE",
+    "AttentionModeId": 3,
+    "RoleId": 4,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 6,
+    "VendorTruckId": 32,
+    "VendorTruckName": "FICTICIO KA",
+    "AttentionModeId": 4,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 7,
+    "VendorTruckId": 33,
+    "VendorTruckName": "RI KA",
+    "AttentionModeId": 5,
+    "RoleId": 9,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 8,
+    "VendorTruckId": 9,
+    "VendorTruckName": "ON PREMISE",
+    "AttentionModeId": 5,
+    "RoleId": 9,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 9,
+    "VendorTruckId": 23,
+    "VendorTruckName": "ESPECIALES",
+    "AttentionModeId": 6,
+    "RoleId": 2,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 10,
+    "VendorTruckId": 42,
+    "VendorTruckName": "MERCHAND",
+    "AttentionModeId": 6,
+    "RoleId": 12,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 11,
+    "VendorTruckId": 31,
+    "VendorTruckName": "PATAGONIA STORE",
+    "AttentionModeId": 7,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 12,
+    "VendorTruckId": 24,
+    "VendorTruckName": "REPOSITOR",
+    "AttentionModeId": 9,
+    "RoleId": 14,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 13,
+    "VendorTruckId": 30,
+    "VendorTruckName": "GENERICO",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 14,
+    "VendorTruckId": 6,
+    "VendorTruckName": "GENÉRICO MINOR",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 15,
+    "VendorTruckId": 7,
+    "VendorTruckName": "NO APLICABLE",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 16,
+    "VendorTruckId": 12,
+    "VendorTruckName": "POT AUTOSERV BC",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 17,
+    "VendorTruckId": 14,
+    "VendorTruckName": "CONJUNTA POTENC",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 18,
+    "VendorTruckId": 2,
+    "VendorTruckName": "ENFOCADA B\/P",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 19,
+    "VendorTruckId": 1,
+    "VendorTruckName": "ENFOCADA Q\/E",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 20,
+    "VendorTruckId": 10,
+    "VendorTruckName": "POT REF TOP\/NOC",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 21,
+    "VendorTruckId": 13,
+    "VendorTruckName": "POT REFR CHOPP",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 22,
+    "VendorTruckId": 8,
+    "VendorTruckName": "POTEN KIOS\/INST",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 23,
+    "VendorTruckId": 3,
+    "VendorTruckName": "POTENC REF REG",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 24,
+    "VendorTruckId": 4,
+    "VendorTruckName": "POTENCIADA AUT",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 25,
+    "VendorTruckId": 19,
+    "VendorTruckName": "REF UP",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 26,
+    "VendorTruckId": 15,
+    "VendorTruckName": "UNG BC",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 27,
+    "VendorTruckId": 11,
+    "VendorTruckName": "MAYORISTAS",
+    "AttentionModeId": 10,
+    "MappingTruckReading": true
+  },
+  {
+    "Id": 28,
+    "VendorTruckId": 5,
+    "VendorTruckName": "CONJUNTA",
+    "AttentionModeId": 11,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 29,
+    "VendorTruckId": 41,
+    "VendorTruckName": "VE AUTOSERVICIO",
+    "AttentionModeId": 12,
+    "RoleId": 20,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 30,
+    "VendorTruckId": 35,
+    "VendorTruckName": "VE CONJUNTA",
+    "AttentionModeId": 12,
+    "RoleId": 21,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 31,
+    "VendorTruckId": 27,
+    "VendorTruckName": "VE MAYORISTAS",
+    "AttentionModeId": 12,
+    "RoleId": 22,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 32,
+    "VendorTruckId": 43,
+    "VendorTruckName": "VE TEMPORADA",
+    "AttentionModeId": 12,
+    "RoleId": 23,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 33,
+    "VendorTruckId": 21,
+    "VendorTruckName": "VEND INTERNO",
+    "AttentionModeId": 13,
+    "RoleId": 19,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 34,
+    "VendorTruckId": 44,
+    "VendorTruckName": "PROMOTOR K+T",
+    "AttentionModeId": 8,
+    "RoleId": 25,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  },
+  {
+    "Id": 35,
+    "VendorTruckId": 46,
+    "VendorTruckName": "PROMOTOR AS",
+    "AttentionModeId": 8,
+    "RoleId": 26,
+    "MappingTruckReading": true,
+    "MappingTruckWriting": true
+  }
+]

@@ -1,0 +1,28 @@
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-bionic AS base
+WORKDIR /app
+EXPOSE 8080
+
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
+WORKDIR /src
+COPY ["Microservices/MicroService/Structure/ABI.API.Structure/ABI.API.Structure.csproj", "MicroService/Structure/ABI.API.Structure/"]
+COPY ["Microservices/MicroService/Structure/ABI.StructuresPortal.Structure.Domain/ABI.StructuresPortal.Structure.Domain.csproj", "MicroService/Structure/ABI.StructuresPortal.Structure.Domain/"]
+COPY ["Microservices/Framework/ABI.StructuresPortal.Domain/ABI.StructuresPortal.Domain.csproj", "Framework/ABI.StructuresPortal.Domain/"]
+COPY ["Microservices/Framework/ABI.StructuresPortal.Helpers/ABI.StructuresPortal.Helpers.csproj", "Framework/ABI.StructuresPortal.Helpers/"]
+COPY ["Microservices/MicroService/Structure/ABI.StructuresPortal.Structure.Infrastructure/ABI.StructuresPortal.Structure.Infrastructure.csproj", "MicroService/Structure/ABI.StructuresPortal.Structure.Infrastructure/"]
+COPY ["Microservices/MicroService/Structure/ABI.StructuresPortal.Structure.Entity/ABI.StructuresPortal.Structure.Entity.csproj", "MicroService/Structure/ABI.StructuresPortal.Structure.Entity/"]
+COPY ["Microservices/Framework/ABI.StructuresPortal.Entity/ABI.StructuresPortal.Entity.csproj", "Framework/ABI.StructuresPortal.Entity/"]
+COPY ["Microservices/Framework/ABI.StructuresPortal.Repository/ABI.StructuresPortal.Repository.csproj", "Framework/ABI.StructuresPortal.Repository/"]
+RUN dotnet restore "MicroService/Structure/ABI.API.Structure/ABI.API.Structure.csproj"
+COPY Microservices/. .
+WORKDIR "/src/MicroService/Structure/ABI.API.Structure"
+RUN dotnet build "ABI.API.Structure.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "ABI.API.Structure.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "ABI.API.Structure.dll"]

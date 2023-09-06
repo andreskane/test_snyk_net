@@ -1,0 +1,27 @@
+[
+  {
+    "Id": 1,
+    "Name": "ARGENTINA",
+    "Code": "AR"
+  },
+  {
+    "Id": 2,
+    "Name": "BOLIVIA",
+    "Code": "BO"
+  },
+  {
+    "Id": 3,
+    "Name": "CHILE",
+    "Code": "CL"
+  },
+  {
+    "Id": 4,
+    "Name": "PARAGUAY",
+    "Code": "PY"
+  },
+  {
+    "Id": 5,
+    "Name": "URUGUAY",
+    "Code": "UY"
+  }
+]

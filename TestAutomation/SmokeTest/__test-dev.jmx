@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="4.0" jmeter="4.0">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="ToExport" enabled="true">
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Http URL/API Test" enabled="true">
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">1</intProp>
+        </elementProp>
+        <intProp name="ThreadGroup.num_threads">1</intProp>
+        <intProp name="ThreadGroup.ramp_time">1</intProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <longProp name="ThreadGroup.duration">0</longProp>
+        <longProp name="ThreadGroup.delay">0</longProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="Cookie Manager" enabled="true">
+          <collectionProp name="CookieManager.cookies"/>
+        </CookieManager>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Product GetAll" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="company" elementType="HTTPArgument" enabled="true">
+                <stringProp name="Argument.name">company</stringProp>
+                <stringProp name="Argument.value">01AR</stringProp>
+                <stringProp name="Argument.desc">company</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <stringProp name="HTTPSampler.domain">abi-api-products-dev.dev.abinbev-las.com</stringProp>
+          <stringProp name="HTTPSampler.path">/api/Product/getAll</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Product GetAll" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="authority" elementType="Header">
+                <stringProp name="Header.name">authority</stringProp>
+                <stringProp name="Header.value">localhost:44350</stringProp>
+              </elementProp>
+              <elementProp name="accept" elementType="Header">
+                <stringProp name="Header.name">accept</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="authorization" elementType="Header">
+                <stringProp name="Header.name">authorization</stringProp>
+                <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImppYk5ia0ZTU2JteFBZck45Q0ZxUms0SzRndyJ9.eyJhdWQiOiI0NTE4ODhkZi04NmU3LTQwOWMtYjQ0OS0zZjI1YzRkNTE0NjEiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vY2VmMDRiMTktNzc3Ni00YTk0LWI4OWItMzc1Yzc3YThmOTM2L3YyLjAiLCJpYXQiOjE2MDA3MDA0ODcsIm5iZiI6MTYwMDcwMDQ4NywiZXhwIjoxNjAwNzA0Mzg3LCJhaW8iOiJBWVFBZS84UUFBQUE0dGo4N2EySFZjVWdUQkFpTlg0bDgzMmFEcmNZL0VWazB3WG5vMll3dVpnOGRyN0xBb0tvakNTMERFQ2V5TThFM3lramppd3J0YzlkaHdPU0xpYkRRM0hWVXBqVVVIWERnMnU3UlhJZjVnanpqQWEveUNIMi9rZ2g3MUZJRUNjWEVxWEQwWkFYQ0UzWXNmNnJGQzN2RXNUS1dNMkZDNDYydkdCWGxXL3gyZDQ9IiwibmFtZSI6IkthbmUsIEFuZHJlcyAoTEFTLVYpIiwibm9uY2UiOiJlMDY3MGE4Yy0wZTFjLTRlMDMtYjEyNi1iNDU1ZDcxM2M5Y2IiLCJvaWQiOiI4NTE3ZDBlZS00ZjBjLTQ5MmUtOWUyZi1jOWIzZWU1YTJiYmIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbmRya2FuZUBxdWlsbWVzLmNvbS5hciIsInJoIjoiMC5BUVFBR1V2d3puWjNsRXE0bXpkY2Q2ajVOdC1JR0VYbmhweEF0RWtfSmNUVkZHRUVBSjguIiwicm9sZXMiOlsiNmJiNzEyOWEtMzUzZS00NTRmLWJkY2ItNzAxNTIwYjE5ZDM2Il0sInN1YiI6InBSV0tJUWdXcWZsTHBjSzIwZmNOQjBrY1Y4bHI2bDg0ZnJyM0xtTEhyZFUiLCJ0aWQiOiJjZWYwNGIxOS03Nzc2LTRhOTQtYjg5Yi0zNzVjNzdhOGY5MzYiLCJ1dGkiOiJIVHFoWTVYbEkweUN2Z2M0TXBzbkFBIiwidmVyIjoiMi4wIn0.Lhv8Rbk6kluVymvQzROovvQ8KqCnD_haCxPq2L-0DN206MsdslnngET1y2ur1omatgx60EICDPh2_fhDvigzZlUFupnN-_lJGOtwlI8ie-xij1Nat_BAN1mQUbe1aUrYNFYmWeDBuTGZEjWBIpMHGZRUbsJf_9A46EkB9dHaJIm1S7uxpZC9CbNT5OQQMOIxZr2Ou_9Fp1D3fIsaYguUvDIzqBuNDubp35DyjYjHfRr6TgikLa0eXKqRWBHOC1i_SOXdagqwCgVzcLh-M1s_S10buH1wxJhCjCAQNac_uqlh6NkRrwXDRYmuGWTiWd79KWHDj0PR1PMCHI9k_-pZtA</stringProp>
+              </elementProp>
+              <elementProp name="user-agent" elementType="Header">
+                <stringProp name="Header.name">user-agent</stringProp>
+                <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36</stringProp>
+              </elementProp>
+              <elementProp name="content-type" elementType="Header">
+                <stringProp name="Header.name">content-type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="origin" elementType="Header">
+                <stringProp name="Header.name">origin</stringProp>
+                <stringProp name="Header.value">http://localhost:4200</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-site" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-site</stringProp>
+                <stringProp name="Header.value">cross-site</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-mode" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-mode</stringProp>
+                <stringProp name="Header.value">cors</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-dest" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-dest</stringProp>
+                <stringProp name="Header.value">empty</stringProp>
+              </elementProp>
+              <elementProp name="referer" elementType="Header">
+                <stringProp name="Header.name">referer</stringProp>
+                <stringProp name="Header.value">http://localhost:4200/</stringProp>
+              </elementProp>
+              <elementProp name="accept-language" elementType="Header">
+                <stringProp name="Header.name">accept-language</stringProp>
+                <stringProp name="Header.value">es-419,es;q=0.9</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Caliber GetAll" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="company" elementType="HTTPArgument" enabled="true">
+                <stringProp name="Argument.name">company</stringProp>
+                <stringProp name="Argument.value">01AR</stringProp>
+                <stringProp name="Argument.desc">company</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <stringProp name="HTTPSampler.domain">abi-api-products-dev.dev.abinbev-las.com</stringProp>
+          <stringProp name="HTTPSampler.path">/api/Caliber/getAll</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Caliber GetAll" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="authority" elementType="Header">
+                <stringProp name="Header.name">authority</stringProp>
+                <stringProp name="Header.value">localhost:44350</stringProp>
+              </elementProp>
+              <elementProp name="accept" elementType="Header">
+                <stringProp name="Header.name">accept</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="authorization" elementType="Header">
+                <stringProp name="Header.name">authorization</stringProp>
+                <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImppYk5ia0ZTU2JteFBZck45Q0ZxUms0SzRndyJ9.eyJhdWQiOiI0NTE4ODhkZi04NmU3LTQwOWMtYjQ0OS0zZjI1YzRkNTE0NjEiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vY2VmMDRiMTktNzc3Ni00YTk0LWI4OWItMzc1Yzc3YThmOTM2L3YyLjAiLCJpYXQiOjE2MDA3MDA0ODcsIm5iZiI6MTYwMDcwMDQ4NywiZXhwIjoxNjAwNzA0Mzg3LCJhaW8iOiJBWVFBZS84UUFBQUE0dGo4N2EySFZjVWdUQkFpTlg0bDgzMmFEcmNZL0VWazB3WG5vMll3dVpnOGRyN0xBb0tvakNTMERFQ2V5TThFM3lramppd3J0YzlkaHdPU0xpYkRRM0hWVXBqVVVIWERnMnU3UlhJZjVnanpqQWEveUNIMi9rZ2g3MUZJRUNjWEVxWEQwWkFYQ0UzWXNmNnJGQzN2RXNUS1dNMkZDNDYydkdCWGxXL3gyZDQ9IiwibmFtZSI6IkthbmUsIEFuZHJlcyAoTEFTLVYpIiwibm9uY2UiOiJlMDY3MGE4Yy0wZTFjLTRlMDMtYjEyNi1iNDU1ZDcxM2M5Y2IiLCJvaWQiOiI4NTE3ZDBlZS00ZjBjLTQ5MmUtOWUyZi1jOWIzZWU1YTJiYmIiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbmRya2FuZUBxdWlsbWVzLmNvbS5hciIsInJoIjoiMC5BUVFBR1V2d3puWjNsRXE0bXpkY2Q2ajVOdC1JR0VYbmhweEF0RWtfSmNUVkZHRUVBSjguIiwicm9sZXMiOlsiNmJiNzEyOWEtMzUzZS00NTRmLWJkY2ItNzAxNTIwYjE5ZDM2Il0sInN1YiI6InBSV0tJUWdXcWZsTHBjSzIwZmNOQjBrY1Y4bHI2bDg0ZnJyM0xtTEhyZFUiLCJ0aWQiOiJjZWYwNGIxOS03Nzc2LTRhOTQtYjg5Yi0zNzVjNzdhOGY5MzYiLCJ1dGkiOiJIVHFoWTVYbEkweUN2Z2M0TXBzbkFBIiwidmVyIjoiMi4wIn0.Lhv8Rbk6kluVymvQzROovvQ8KqCnD_haCxPq2L-0DN206MsdslnngET1y2ur1omatgx60EICDPh2_fhDvigzZlUFupnN-_lJGOtwlI8ie-xij1Nat_BAN1mQUbe1aUrYNFYmWeDBuTGZEjWBIpMHGZRUbsJf_9A46EkB9dHaJIm1S7uxpZC9CbNT5OQQMOIxZr2Ou_9Fp1D3fIsaYguUvDIzqBuNDubp35DyjYjHfRr6TgikLa0eXKqRWBHOC1i_SOXdagqwCgVzcLh-M1s_S10buH1wxJhCjCAQNac_uqlh6NkRrwXDRYmuGWTiWd79KWHDj0PR1PMCHI9k_-pZtA</stringProp>
+              </elementProp>
+              <elementProp name="user-agent" elementType="Header">
+                <stringProp name="Header.name">user-agent</stringProp>
+                <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36</stringProp>
+              </elementProp>
+              <elementProp name="content-type" elementType="Header">
+                <stringProp name="Header.name">content-type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="origin" elementType="Header">
+                <stringProp name="Header.name">origin</stringProp>
+                <stringProp name="Header.value">http://localhost:4200</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-site" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-site</stringProp>
+                <stringProp name="Header.value">cross-site</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-mode" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-mode</stringProp>
+                <stringProp name="Header.value">cors</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-dest" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-dest</stringProp>
+                <stringProp name="Header.value">empty</stringProp>
+              </elementProp>
+              <elementProp name="referer" elementType="Header">
+                <stringProp name="Header.name">referer</stringProp>
+                <stringProp name="Header.value">http://localhost:4200/</stringProp>
+              </elementProp>
+              <elementProp name="accept-language" elementType="Header">
+                <stringProp name="Header.name">accept-language</stringProp>
+                <stringProp name="Header.value">es-419,es;q=0.9</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Brand GetAll" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <stringProp name="HTTPSampler.domain">abi-api-products-dev.dev.abinbev-las.com</stringProp>
+          <stringProp name="HTTPSampler.path">/api/Brand/getAll</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Brand GetAll" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="authority" elementType="Header">
+                <stringProp name="Header.name">authority</stringProp>
+                <stringProp name="Header.value">localhost:44350</stringProp>
+              </elementProp>
+              <elementProp name="accept" elementType="Header">
+                <stringProp name="Header.name">accept</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="authorization" elementType="Header">
+                <stringProp name="Header.name">authorization</stringProp>
+                <stringProp name="Header.value">Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImppYk5ia0ZTU2JteFBZck45Q0ZxUms0SzRndyJ9.eyJhdWQiOiI0NTE4ODhkZi04NmU3LTQwOWMtYjQ0OS0zZjI1YzRkNTE0NjEiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vY2VmMDRiMTktNzc3Ni00YTk0LWI4OWItMzc1Yzc3YThmOTM2L3YyLjAiLCJpYXQiOjE2MDA3MTY2NDcsIm5iZiI6MTYwMDcxNjY0NywiZXhwIjoxNjAwNzIwNTQ3LCJhaW8iOiJBVlFBcS84UUFBQUF3MW96UGwzbDVsa1BsYTJNK25ndVZKY3crVGNJazJNU05RM3RQWVhSOWw1Q3hCd1pBRWVaZjZicWUxb1FEc1NqZHJZa2NDQ2REcCtTb3Vxdk0rNlFYTW8yV1pCUUsyWDFtcXZucEN0S3Q4TT0iLCJncm91cHMiOlsiU0xBU0dfQ2l0cml4X0FjY2Vzc19SZW1vdGUiLCJTTEFTR19DaXRyaXhfUmVkaXJlY3Rpb25fR3J1cG8yIiwicHJveHl1c2VyczIiLCJTTEFTR19Qcm94eVVzZXJzX0dlbmVyYWwiLCJTTEFTRy1MYXRpbi1BbWVyaWNhLVNvdXRoLUNpdHJpeC1BY2Nlc3MtMkZBIl0sImlwYWRkciI6IjE4MS40NC42MC4xMzMiLCJuYW1lIjoiS2FuZSwgQW5kcmVzIChMQVMtVikiLCJub25jZSI6IjFmYTk5OWY0LTU1YzctNDc3Zi05N2ZhLTU2ZDJiZTE1NGZkMyIsIm9pZCI6Ijg1MTdkMGVlLTRmMGMtNDkyZS05ZTJmLWM5YjNlZTVhMmJiYiIsInByZWZlcnJlZF91c2VybmFtZSI6ImFuZHJrYW5lQHF1aWxtZXMuY29tLmFyIiwicmgiOiIwLkFRUUFHVXZ3em5aM2xFcTRtemRjZDZqNU50LUlHRVhuaHB4QXRFa19KY1RWRkdFRUFKOC4iLCJyb2xlcyI6WyJBZG1pbiJdLCJzdWIiOiJwUldLSVFnV3FmbExwY0syMGZjTkIwa2NWOGxyNmw4NGZycjNMbUxIcmRVIiwidGlkIjoiY2VmMDRiMTktNzc3Ni00YTk0LWI4OWItMzc1Yzc3YThmOTM2IiwidXRpIjoiYTBYWVRqZk5LVUNZWlB0YWRVc3pBQSIsInZlciI6IjIuMCJ9.RZwCNBUSZ1aW5DaovSq7GGHMVkyYVyVoaK5DJ23ueWo--yI-Q5CYjytPZXm5PY2HdZtqExUdVgPO0WRTtdnVjkFx0ZRF80ijPVTRYQv_h5SnZm8u9BaMwPEaV0QKM1F4MTNfKPuf_JMowdkWVujQ_PMCSgD6tZdo2yi9c6ih2L5qG99UlU-PFt_belhcGoD2nIOIFyXYk_vs_Vpwx2hsIYRf3O47w9daPA8S19sZHhwqvsouqhw0Uyf5qFGKYzRtLPH-FJ3wuEoyHzJueTX2gww_kmWOAGTiOB9GOe1Q35S3Mc8KqMvkWq0eefeo4MOCkPz1GwvOogFcZQ-mDLttZA</stringProp>
+              </elementProp>
+              <elementProp name="user-agent" elementType="Header">
+                <stringProp name="Header.name">user-agent</stringProp>
+                <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36</stringProp>
+              </elementProp>
+              <elementProp name="content-type" elementType="Header">
+                <stringProp name="Header.name">content-type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="origin" elementType="Header">
+                <stringProp name="Header.name">origin</stringProp>
+                <stringProp name="Header.value">http://localhost:4200</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-site" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-site</stringProp>
+                <stringProp name="Header.value">cross-site</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-mode" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-mode</stringProp>
+                <stringProp name="Header.value">cors</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-dest" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-dest</stringProp>
+                <stringProp name="Header.value">empty</stringProp>
+              </elementProp>
+              <elementProp name="referer" elementType="Header">
+                <stringProp name="Header.name">referer</stringProp>
+                <stringProp name="Header.value">http://localhost:4200/</stringProp>
+              </elementProp>
+              <elementProp name="accept-language" elementType="Header">
+                <stringProp name="Header.name">accept-language</stringProp>
+                <stringProp name="Header.value">es-419,es;q=0.9</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="smoke" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <stringProp name="HTTPSampler.domain">abi-api-personas-dev.dev.abinbev-las.com</stringProp>
+          <stringProp name="HTTPSampler.path">/swagger/index.html</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="smoke" enabled="true">
+            <collectionProp name="HeaderManager.headers"/>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

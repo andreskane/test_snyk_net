@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "Name": "DIRECTA",
+    "ShortName": "CV1",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 2,
+    "Name": "DISTRIBUIDORES",
+    "ShortName": "CV2",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 3,
+    "Name": "SUPERMERCADOS",
+    "ShortName": "CV3",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 99999,
+    "Name": "DELETEABLE",
+    "ShortName": "DEL",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 100000,
+    "Name": "DELETEABLE",
+    "ShortName": "DEL",
+    "Description": "-",
+    "Active": true
+  }
+]

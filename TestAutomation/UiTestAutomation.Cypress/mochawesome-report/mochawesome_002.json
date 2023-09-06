@@ -1,0 +1,128 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-07-19T17:10:04.281Z",
+    "end": "2021-07-19T17:10:10.792Z",
+    "duration": 6511,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 1,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "2b99459f-e8dd-4087-8c34-9583b88e46a7",
+      "title": "",
+      "fullFile": "cypress/integration/fetchData.spec.js",
+      "file": "cypress/integration/fetchData.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0050f819-73f1-4f5d-b5b1-40cab3ab67fd",
+          "title": "fetchData",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "shows a table",
+              "fullTitle": "fetchData shows a table",
+              "timedOut": null,
+              "duration": 6426,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(\"[data-cy=forecast-table]\").should(\"be.visible\");",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy=nav-fetch-data]`, but never found it.\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `fetchData`",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[data-cy=nav-fetch-data]`, but never found it.\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `fetchData`\n    at Context.eval (https://abi-las-fe-wsc-dev.dev.abinbev-las.com/__cypress/tests?p=cypress\\integration\\fetchData.spec.js:102:16)",
+                "diff": null
+              },
+              "uuid": "f56dafcf-a45f-4cb0-88ce-69bd763b1903",
+              "parentUUID": "0050f819-73f1-4f5d-b5b1-40cab3ab67fd",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "renders 5 items in table",
+              "fullTitle": "fetchData renders 5 items in table",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(\"[data-cy=forecast-table]\").find(\"[data-cy=forecast-row]\").should(\"have.length\", 5);",
+              "err": {},
+              "uuid": "4683deb1-f7ba-46b1-885c-56191b02a89b",
+              "parentUUID": "0050f819-73f1-4f5d-b5b1-40cab3ab67fd",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "f56dafcf-a45f-4cb0-88ce-69bd763b1903"
+          ],
+          "pending": [],
+          "skipped": [
+            "4683deb1-f7ba-46b1-885c-56191b02a89b"
+          ],
+          "duration": 6426,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

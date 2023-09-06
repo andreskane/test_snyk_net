@@ -1,0 +1,194 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 2,
+    "pending": 0,
+    "failures": 3,
+    "start": "2021-07-20T15:19:56.422Z",
+    "end": "2021-07-20T15:21:06.424Z",
+    "duration": 70002,
+    "testsRegistered": 5,
+    "passPercent": 40,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f7268b56-d04b-4869-8092-bc022d0ca8ca",
+      "title": "",
+      "fullFile": "cypress/integration/tests/ta_2.spec.js",
+      "file": "cypress/integration/tests/ta_2.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2c7b04a5-a767-4f9d-bf2f-d7bb95c3b877",
+          "title": "paso 1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should login succesfully and show the welcome message",
+              "fullTitle": "paso 1 Should login succesfully and show the welcome message",
+              "timedOut": null,
+              "duration": 11015,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\ncy.visit(WSC_URL_DEV); // Verificando existencia del titulo en el home\ncy.get('.page-title').should('have.text', 'Bienvenido a WSC');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.page-title`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.page-title`, but never found it.\n    at Context.eval (https://abi-las-fe-wsc-dev.dev.abinbev-las.com/__cypress/tests?p=cypress\\integration\\tests\\ta_2.spec.js:116:27)",
+                "diff": null
+              },
+              "uuid": "502f6537-a0dc-44a6-b349-06bc86d5fe0b",
+              "parentUUID": "2c7b04a5-a767-4f9d-bf2f-d7bb95c3b877",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should login succesfully and show the environment name",
+              "fullTitle": "paso 1 Should login succesfully and show the environment name",
+              "timedOut": null,
+              "duration": 5645,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\n// Verificando existencia del titulo en el home\ncy.get('.title-environment.ng-star-inserted').should('have.text', Cypress.config(\"K8Enviroment\"));",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.title-environment.ng-star-inserted`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.title-environment.ng-star-inserted`, but never found it.\n    at Context.eval (https://abi-las-fe-wsc-dev.dev.abinbev-las.com/__cypress/tests?p=cypress\\integration\\tests\\ta_2.spec.js:121:51)",
+                "diff": null
+              },
+              "uuid": "ff797082-3a00-4b31-a945-4d97dec400a9",
+              "parentUUID": "2c7b04a5-a767-4f9d-bf2f-d7bb95c3b877",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should login succesfully and show the web app version",
+              "fullTitle": "paso 1 Should login succesfully and show the web app version",
+              "timedOut": null,
+              "duration": 17551,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\ncy.visit(\"/\"); // Verificando existencia del titulo en el home\ncy.get('.title-version').should('have.text', STR_VERSION);",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.title-version`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.title-version`, but never found it.\n    at Context.eval (https://abi-las-fe-wsc-dev.dev.abinbev-las.com/__cypress/tests?p=cypress\\integration\\tests\\ta_2.spec.js:127:30)",
+                "diff": null
+              },
+              "uuid": "8c997db8-e8e8-44cf-bd82-7082b3e9dc34",
+              "parentUUID": "2c7b04a5-a767-4f9d-bf2f-d7bb95c3b877",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should login succesfully, unfold the side menu and fold it again",
+              "fullTitle": "paso 1 Should login succesfully, unfold the side menu and fold it again",
+              "timedOut": null,
+              "duration": 16397,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\ncy.visit(\"/\");\ncy.wait(2000); // Desplegando el menú lateral\ncy.get('[src=\"assets/menu/menu.svg\"]').click();\ncy.wait(2000); // Plegando el menú lateral\ncy.get('[src=\"assets/menu/active.svg\"]').click();",
+              "err": {},
+              "uuid": "5bdd45df-9c93-4f5a-b72b-50db2e12c0b7",
+              "parentUUID": "2c7b04a5-a767-4f9d-bf2f-d7bb95c3b877",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should login and go to the Volumen Baseline home",
+              "fullTitle": "paso 1 Should login and go to the Volumen Baseline home",
+              "timedOut": null,
+              "duration": 18922,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\ncy.visit(WSC_URL_DEV);\ncy.wait(2000); // Desplegando el menú lateral\ncy.get('[src=\"assets/menu/fuentes.svg\"]').click();\ncy.wait(2000); // Plegando el menú lateral\ncy.get('[tabindex=\"0\"]').click();",
+              "err": {},
+              "uuid": "cfa775fd-36b7-4dfd-8bc2-265ced2bb0ff",
+              "parentUUID": "2c7b04a5-a767-4f9d-bf2f-d7bb95c3b877",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5bdd45df-9c93-4f5a-b72b-50db2e12c0b7",
+            "cfa775fd-36b7-4dfd-8bc2-265ced2bb0ff"
+          ],
+          "failures": [
+            "502f6537-a0dc-44a6-b349-06bc86d5fe0b",
+            "ff797082-3a00-4b31-a945-4d97dec400a9",
+            "8c997db8-e8e8-44cf-bd82-7082b3e9dc34"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 69530,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "xml": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

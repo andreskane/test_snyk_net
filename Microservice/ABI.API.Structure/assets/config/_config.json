@@ -1,0 +1,27 @@
+{
+	"ApplicationInsights": { "InstrumentationKey": "4adeea51-d54c-4c03-8418-b2331797fc16" },
+	"KubernetesEnv": "Test",
+	"Logging": {
+		"LogLevel": {
+			"Default": "Debug",
+			"Microsoft": "Information",
+			"Microsoft.Hosting.Lifetime": "Information"
+		}
+	},
+	"ConnectionStrings": {
+		"StructureDb": "Data Source=tcp:abi-las-tst-brs-portalestructuras-sql.database.windows.net,1433;Initial Catalog=ABI.DB.Estructuras;User ID=abimanagement;Password='Y_+u{5vYSw)j>2n$';Connection Timeout=30",
+		"TruckACLDb": "Data Source=tcp:abi-las-tst-brs-portalestructuras-sql.database.windows.net,1433;Initial Catalog=ABI.DB.Estructuras;User ID=abimanagement;Password='Y_+u{5vYSw)j>2n$';Connection Timeout=30"
+	},
+	"API": {
+		"UrlApiTruck": "https://estrversb.dev.abinbev-las.com/estrversbargentinadev/rest/",
+		"UrlApiDBUHResource": "https://abi-api-dbuhresource-tst.dev.abinbev-las.com/"
+	},
+	"AzureAd": {
+		"Instance": "https://login.microsoftonline.com/",
+		"TenantId": "cef04b19-7776-4a94-b89b-375c77a8f936",
+		"Domain": "https://login.microsoftonline.com/",
+		"ClientId": "678b21c2-3242-49ea-85f2-ca97f483df17",
+		"ClientSecret": "mf2dqNiFr-k.D56C4yJb.VBkyn38~_l~Mn",
+		"ClientCertificates": []
+	}
+}

@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+	 <!-- SonarQube needs this -->
+  <ProjectGuid>{1E976A5F-8174-449B-A6C1-013B4182FC87}</ProjectGuid>
+	  <AssemblyVersion>1.5.23.4</AssemblyVersion>
+	  <FileVersion>1.5.23.4</FileVersion>
+	  <Version>1.5.23.4</Version>
+  <CodeAnalysisRuleSet>..\.sonarlint\ab-inbev-las_abi-api-estructurascsharp.ruleset</CodeAnalysisRuleSet>
+  <Configurations>Debug;Release;Docker;TestAutomation</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Commands\ImportProcess\**" />
+    <Compile Remove="DTO\ImportProcess\**" />
+    <Compile Remove="Queries\ImportProcess\**" />
+    <EmbeddedResource Remove="Commands\ImportProcess\**" />
+    <EmbeddedResource Remove="DTO\ImportProcess\**" />
+    <EmbeddedResource Remove="Queries\ImportProcess\**" />
+    <None Remove="Commands\ImportProcess\**" />
+    <None Remove="DTO\ImportProcess\**" />
+    <None Remove="Queries\ImportProcess\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Commands\CreateNodeContainsCommand.cs~RF183a6a5.TMP" />
+    <None Remove="Commands\CreateStructureCommand.cs~RFb455a6.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\.sonarlint\ab-inbev-las_abi-api-estructuras\CSharp\SonarLint.xml" Link="SonarLint.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ABI.Framework.MS.Caching" Version="5.0.1" />
+    <PackageReference Include="ABI.Framework.MS.DataAccess" Version="5.0.1" />
+    <PackageReference Include="ABI.Framework.MS.Helpers" Version="5.0.2" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="CompareNETObjects" Version="4.73.0" />
+    <PackageReference Include="Coravel" Version="4.0.2" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.13.1" />
+    <PackageReference Include="FluentValidation" Version="10.3.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.0" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.17.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ABI.API.Structure.ACL.Truck\ABI.API.Structure.ACL.Truck.csproj" />
+    <ProjectReference Include="..\ABI.API.Structure.APIClient.Truck\ABI.API.Structure.APIClient.Truck.csproj" />
+    <ProjectReference Include="..\ABI.API.Structure.Domain\ABI.API.Structure.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BackgroundServices\" />
+  </ItemGroup>
+
+</Project>

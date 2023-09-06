@@ -1,0 +1,123 @@
+[
+	{
+		"Id": 1,
+		"CreateDate": "2020-12-03T18:18:15.5239514",
+		"ValidityFrom": "2021-03-03",
+		"UserJson": "{\"Id\":\"3E8FA66E-3619-48F0-9F0B-60500005D7EF\",\"Name\":\"SSO, ALLMOBILE\"}",
+		"IdStructure": 1,
+		"IdObjectType": 2,
+		"IdChangeType": 1,
+		"ChangedValueJson": "{\"Field\": \"Name\",\"FieldName\": \"Nombre\",\"Node\": {\"Id\": 1,\"Name\": \"TEST A\",\"Code\": \"AAA\"},\"OldValue\": \"TEST A\",\"NewValue\": \"TEST B\"}",
+		"NodePathJson": "{}"
+	},
+	{
+		"Id": 2,
+		"CreateDate": "2020-12-03T18:44:08.7264039",
+		"IdStructure": 1,
+		"ValidityFrom": "2021-03-03",
+		"UserJson": "{\"Id\":\"3E8FA66E-3619-48F0-9F0B-60500005D7EF\",\"Name\":\"SSO, ALLMOBILE\"}",
+		"IdObjectType": 2,
+		"IdChangeType": 1,
+		"ChangedValueJson": "{}",
+		"NodePathJson": "{}"
+	},
+	{
+		"Id": 3,
+		"CreateDate": "2020-12-03T18:44:10.2321971",
+		"IdStructure": 1,
+		"ValidityFrom": "2021-03-03",
+		"UserJson": "{\"Id\":\"3E8FA66E-3619-48F0-9F0B-60500005D7EF\",\"Name\":\"SSO, ALLMOBILE\"}",
+		"IdObjectType": 2,
+		"IdChangeType": 1,
+		"ChangedValueJson": "{}",
+		"NodePathJson": "{}"
+	},
+	{
+		"Id": 4,
+		"CreateDate": "2020-12-03T18:44:11.1547373",
+		"IdStructure": 1,
+		"IdObjectType": 3,
+		"ValidityFrom": "2021-03-03",
+		"UserJson": "{\"Id\":\"3E8FA66E-3619-48F0-9F0B-60500005D7EF\",\"Name\":\"SSO, ALLMOBILE\"}",
+		"IdChangeType": 1,
+		"ChangedValueJson": "{\"AristaActual\":{\"AristaId\":100013,\"OldValue\":{\"StructureIdFrom\":7,\"NodeIdFrom\":100013,\"AristaValidityTo\":\"9999-12-31T00:00:00\"},\"NewValue\":{\"StructureIdFrom\":7,\"NodeIdFrom\":100013,\"AristaValidityTo\":\"2021-03-28T00:00:00Z\"}},\"AristaNueva\":{\"AristaId\":100022,\"StructureIdFrom\":7,\"NodeIdFrom\":100013,\"AristaValidityFrom\":\"2021-03-29T00:00:00Z\",\"AristaValidityTo\":\"9999-12-31T00:00:00\"}}",
+		"NodePathJson": "{\"Ids\":[100013,1]}"
+	},
+	{
+		"Id": 5,
+		"CreateDate": "2020-12-03T18:48:27.9799672",
+		"IdStructure": 1,
+		"IdObjectType": 2,
+		"ValidityFrom": "2021-03-03",
+		"UserJson": "{\"Id\":\"3E8FA66E-3619-48F0-9F0B-60500005D7EF\",\"Name\":\"SSO, ALLMOBILE\"}",
+		"IdChangeType": 1,
+		"ChangedValueJson": "{}",
+		"NodePathJson": "{}"
+	},
+	{
+		"Id": 6,
+		"CreateDate": "2020-12-03T18:48:27.9799672",
+		"IdStructure": 10,
+		"IdObjectType": 2,
+		"ValidityFrom": "2021-03-03",
+		"UserJson": "{\"Id\":\"3E8FA66E-3619-48F0-9F0B-60500005D7EF\",\"Name\":\"SSO, ALLMOBILE\"}",
+		"IdChangeType": 1,
+		"ChangedValueJson": "{}",
+		"NodePathJson": "{}"
+	},
+	{
+		"Id": 7,
+		"CreateDate": "2020-12-03T18:18:15.5239514",
+		"ValidityFrom": "2021-03-03",
+		"UserJson": "{\"Id\":\"3E8FA66E-3619-48F0-9F0B-60500005D7EF\",\"Name\":\"SSO, ALLMOBILE\"}",
+		"IdStructure": 1,
+		"IdObjectType": 2,
+		"IdChangeType": 1,
+		"ChangedValueJson": "{\"Field\": \"Active\",\"FieldName\": \"Estado\",\"Node\": {\"Id\": 1,\"Name\": \"TEST A\",\"Code\": \"AAA\"},\"OldValue\": \"TRUE\",\"NewValue\": \"FALSE\"}",
+		"NodePathJson": "{}"
+	},
+	{
+		"Id": 8,
+		"CreateDate": "2020-12-03T18:18:15.5239514",
+		"ValidityFrom": "2021-03-03",
+		"UserJson": "{\"Id\":\"3E8FA66E-3619-48F0-9F0B-60500005D7EF\",\"Name\":\"SSO, ALLMOBILE\"}",
+		"IdStructure": 1,
+		"IdObjectType": 2,
+		"IdChangeType": 1,
+		"ChangedValueJson": "{\"Field\": \"AttentionMode\",\"FieldName\": \"Modo de atención\",\"Node\": {\"Id\": 1,\"Name\": \"TEST A\",\"Code\": \"AAA\"},\"OldValue\": \"\",\"NewValue\": \"2\"}",
+		"NodePathJson": "{}"
+	},
+	{
+		"Id": 9,
+		"CreateDate": "2020-12-03T18:18:15.5239514",
+		"ValidityFrom": "2021-03-03",
+		"UserJson": "{\"Id\":\"3E8FA66E-3619-48F0-9F0B-60500005D7EF\",\"Name\":\"SSO, ALLMOBILE\"}",
+		"IdStructure": 1,
+		"IdObjectType": 2,
+		"IdChangeType": 1,
+		"ChangedValueJson": "{\"Field\": \"Role\",\"FieldName\": \"Rol\",\"Node\": {\"Id\": 1,\"Name\": \"TEST A\",\"Code\": \"AAA\"},\"OldValue\": \"1\",\"NewValue\": \"2\"}",
+		"NodePathJson": "{}"
+	},
+	{
+		"Id": 10,
+		"CreateDate": "2020-12-03T18:18:15.5239514",
+		"ValidityFrom": "2021-03-03",
+		"UserJson": "{\"Id\":\"3E8FA66E-3619-48F0-9F0B-60500005D7EF\",\"Name\":\"SSO, ALLMOBILE\"}",
+		"IdStructure": 1,
+		"IdObjectType": 2,
+		"IdChangeType": 1,
+		"ChangedValueJson": "{\"Field\": \"SaleChannel\",\"FieldName\": \"Canal de venta\",\"Node\": {\"Id\": 1,\"Name\": \"TEST A\",\"Code\": \"AAA\"},\"OldValue\": \"1\",\"NewValue\": \"2\"}",
+		"NodePathJson": "{}"
+	},
+	{
+		"Id": 11,
+		"CreateDate": "2020-12-03T18:18:15.5239514",
+		"ValidityFrom": "2021-03-03",
+		"UserJson": "{\"Id\":\"3E8FA66E-3619-48F0-9F0B-60500005D7EF\",\"Name\":\"SSO, ALLMOBILE\"}",
+		"IdStructure": 1,
+		"IdObjectType": 2,
+		"IdChangeType": 1,
+		"ChangedValueJson": "{\"Field\": \"EmployeeId\",\"FieldName\": \"Persona\",\"Node\": {\"Id\": 1,\"Name\": \"TEST A\",\"Code\": \"AAA\"},\"OldValue\": \"543\",\"NewValue\": \"645\"}",
+		"NodePathJson": "{}"
+	}
+]

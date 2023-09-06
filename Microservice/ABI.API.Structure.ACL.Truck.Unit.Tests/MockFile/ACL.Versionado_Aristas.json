@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "VersionedId": 1,
+    "AristaId": 8989
+  },
+  {
+    "Id": 2,
+    "VersionedId": 1,
+    "AristaId": 8990
+  },
+  {
+    "Id": 3,
+    "VersionedId": 1,
+    "AristaId": 8991
+  },
+  {
+    "Id": 4,
+    "VersionedId": 1,
+    "AristaId": 8992
+  },
+  {
+    "Id": 5,
+    "VersionedId": 1,
+    "AristaId": 8993
+  },
+  {
+    "Id": 6,
+    "VersionedId": 1,
+    "AristaId": 8994
+  }
+]

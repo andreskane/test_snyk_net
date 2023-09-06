@@ -1,0 +1,30 @@
+{
+	"baseUrl_l": "http://localhost:4200",
+	"baseUrl": "https://abi-las-fe-wsc-dev.dev.abinbev-las.com",
+	"version_to_check": " v 0.3.0720.3 ",
+	"_baseUrl": "https://#{img_lowercase_name}##{url_subdomain}#",
+	"_version_to_check": " v #{version}# ",
+	"K8Enviroment": " #{KubernetesEnv}# ",
+	"clientId": "d2c07587-ccd8-415e-9d7d-1bcf14f33ffc",
+	"clientSecret": ".Ak_M-39blA8mZpODp200JO7sBZ4ZK8cB-",
+	"tenantId": "cef04b19-7776-4a94-b89b-375c77a8f936",
+	"user": "allmobilesso@quilmes.com.ar",
+	"password": "Quilmes.1890",
+	"grant_type": "password",
+	"chromeWebSecurity": false,
+	"video": false,
+  "reporter": "cypress-multi-reporters",
+	"reporterOptions": {
+		"reporterEnabled": "cypress-mochawesome-reporter, mocha-junit-reporter",
+		"cypressMochawesomeReporterReporterOptions": {
+			"reportDir": "cypress/reports",
+			"charts": true,
+			"reportPageTitle": "WSC Automated Test",
+			"embeddedScreenshots": true,
+			"inlineAssets": true
+		},
+		"mochaJunitReporterReporterOptions": {
+			"mochaFile": "cypress/reports/junit/junit.[hash].xml" 
+		}
+	}
+}

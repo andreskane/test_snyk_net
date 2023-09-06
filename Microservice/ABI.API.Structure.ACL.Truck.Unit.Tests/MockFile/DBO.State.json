@@ -1,0 +1,31 @@
+﻿[
+  {
+    "StateGroupId": 1,
+    "StateGroup": null,
+    "MotiveStates": [],
+    "Id": 1,
+    "Name": "Borrador"
+  },
+  {
+    "StateGroupId": 1,
+    "StateGroup": null,
+    "MotiveStates": [],
+    "Id": 2,
+    "Name": "Confirmado"
+  },
+  {
+    "StateGroupId": 1,
+    "StateGroup": null,
+    "MotiveStates": [],
+    "Id": 3,
+    "Name": "Cancelado"
+  },
+  {
+    "StateGroupId": 1,
+    "StateGroup": null,
+    "MotiveStates": [],
+    "Id": 4,
+    "Name": "Anulado"
+  }
+]
+

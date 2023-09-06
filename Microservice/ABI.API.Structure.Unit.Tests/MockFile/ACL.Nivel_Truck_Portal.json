@@ -1,0 +1,64 @@
+[
+  {
+    "Id": 1,
+    "LevelTruck": 1,
+    "LevelTruckName": "DIRECCION",
+    "LevelPortalId": 1,
+    "LevelPortalName": "PAÍS",
+    "TypeEmployeeTruck": "D",
+    "RolPortalId": 24
+  },
+  {
+    "Id": 2,
+    "LevelTruck": 2,
+    "LevelTruckName": "AREA",
+    "LevelPortalId": 2,
+    "LevelPortalName": "ÁREA",
+    "TypeEmployeeTruck": "R",
+    "RolPortalId": 5
+  },
+  {
+    "Id": 3,
+    "LevelTruck": 3,
+    "LevelTruckName": "GERENCIA",
+    "LevelPortalId": 3,
+    "LevelPortalName": "REGIÓN",
+    "TypeEmployeeTruck": "G",
+    "RolPortalId": 8
+  },
+  {
+    "Id": 4,
+    "LevelTruck": 4,
+    "LevelTruckName": "REGION",
+    "LevelPortalId": 5,
+    "LevelPortalName": "SUBREGIÓN",
+    "TypeEmployeeTruck": "J",
+    "RolPortalId": 8
+  },
+  {
+    "Id": 5,
+    "LevelTruck": 5,
+    "LevelTruckName": "JEFATURA",
+    "LevelPortalId": 6,
+    "LevelPortalName": "JEFATURA",
+    "TypeEmployeeTruck": "O",
+    "RolPortalId": 11
+  },
+  {
+    "Id": 6,
+    "LevelTruck": 5,
+    "LevelTruckName": "ZONA",
+    "LevelPortalId": 7,
+    "LevelPortalName": "ZONA",
+    "TypeEmployeeTruck": "S",
+    "RolPortalId": 17
+  },
+  {
+    "Id": 7,
+    "LevelTruck": 6,
+    "LevelTruckName": "TERRITORIO",
+    "LevelPortalId": 8,
+    "LevelPortalName": "TERRENO",
+    "TypeEmployeeTruck": "V,C"
+  }
+]

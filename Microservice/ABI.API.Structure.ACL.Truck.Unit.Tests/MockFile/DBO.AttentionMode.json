@@ -1,0 +1,100 @@
+[
+  {
+    "Id": 1,
+    "Name": "ATENCIÓN RI MAYORISTA",
+    "ShortName": "A SV",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 2,
+    "Name": "ATENCIÓN SUPERVISOR",
+    "ShortName": "S\/ ATN",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 3,
+    "Name": "BDR",
+    "ShortName": "BDR",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 4,
+    "Name": "FICTICIO KA",
+    "ShortName": "S\/ ATN",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 5,
+    "Name": "INTERNO KA",
+    "ShortName": "INT KA",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 6,
+    "Name": "MERCHAND",
+    "ShortName": "MERCH",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 7,
+    "Name": "PATAGONIA STORE",
+    "ShortName": "PAT ST",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 8,
+    "Name": "PROMOTOR",
+    "ShortName": "PROM",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 9,
+    "Name": "REPOSITOR",
+    "ShortName": "REPO",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 10,
+    "Name": "SIN ATENCIÓN",
+    "ShortName": "S\/ ATN",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 11,
+    "Name": "SMK Y DISTRIBUIDORES",
+    "ShortName": "SMK-DIS",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 12,
+    "Name": "VENDEDOR EXTERNO",
+    "ShortName": "VE",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 13,
+    "Name": "VENDEDOR INTERNO",
+    "ShortName": "VI",
+    "Description": "-",
+    "Active": true
+  },
+  {
+    "Id": 10000,
+    "Name": "DELETEABLE",
+    "ShortName": "DEL",
+    "Description": "-",
+    "Active": true
+  }
+]

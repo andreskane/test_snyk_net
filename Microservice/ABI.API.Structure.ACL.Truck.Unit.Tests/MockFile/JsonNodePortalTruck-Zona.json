@@ -1,0 +1,67 @@
+[
+  {
+    "nodo_id": 2383,
+    "Name": "6701 ENF B\/7UP",
+    "Code": "6701",
+    "LevelId": 7,
+    "ActiveNode": true,
+    "RoleId": 17,
+    "EmployeeId": 1599,
+    "NodeIdParent": 2487,
+    "ValidityFrom": "2020-10-13",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00",
+    "ParentNodeCode": "17175_130"
+  },
+  {
+    "nodo_id": 2394,
+    "Name": "6700 ENF B\/P",
+    "Code": "6700",
+    "LevelId": 7,
+    "ActiveNode": true,
+    "RoleId": 17,
+    "EmployeeId": 1379,
+    "NodeIdParent": 2487,
+    "ValidityFrom": "2020-10-13",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00",
+    "ParentNodeCode": "17175_130"
+  },
+  {
+    "nodo_id": 2408,
+    "Name": "6707 POTENCIADA",
+    "Code": "6707",
+    "LevelId": 7,
+    "ActiveNode": true,
+    "RoleId": 17,
+    "EmployeeId": 10316,
+    "NodeIdParent": 2487,
+    "ValidityFrom": "2020-10-13",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00",
+    "ParentNodeCode": "17175_130"
+  },
+  {
+    "nodo_id": 2417,
+    "Name": "6706 CONJUNTA",
+    "Code": "6706",
+    "LevelId": 7,
+    "ActiveNode": true,
+    "RoleId": 17,
+    "EmployeeId": 1365,
+    "NodeIdParent": 2487,
+    "ValidityFrom": "2020-10-13",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00",
+    "ParentNodeCode": "17175_130"
+  },
+  {
+    "nodo_id": 2420,
+    "Name": "6705 CONJUNTA",
+    "Code": "6705",
+    "LevelId": 7,
+    "ActiveNode": true,
+    "RoleId": 17,
+    "EmployeeId": 1367,
+    "NodeIdParent": 2487,
+    "ValidityFrom": "2020-10-13",
+    "ValidityTo": "9999-12-31T20:59:59.9999999-03:00",
+    "ParentNodeCode": "17175_130"
+  }
+]

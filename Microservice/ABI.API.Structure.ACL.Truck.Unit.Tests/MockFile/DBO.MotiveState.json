@@ -1,0 +1,43 @@
+﻿[
+  {
+    "StateId": 1,
+    "MotiveId": 1,
+    "State": null,
+    "Motive": null,
+    "StructureNodoDefinitions": [],
+    "StructureAristas": [],
+    "Id": 1,
+    "Name": null
+  },
+  {
+    "StateId": 2,
+    "MotiveId": 1,
+    "State": null,
+    "Motive": null,
+    "StructureNodoDefinitions": [],
+    "StructureAristas": [],
+    "Id": 2,
+    "Name": null
+  },
+  {
+    "StateId": 3,
+    "MotiveId": 1,
+    "State": null,
+    "Motive": null,
+    "StructureNodoDefinitions": [],
+    "StructureAristas": [],
+    "Id": 3,
+    "Name": null
+  },
+  {
+    "StateId": 4,
+    "MotiveId": 1,
+    "State": null,
+    "Motive": null,
+    "StructureNodoDefinitions": [],
+    "StructureAristas": [],
+    "Id": 4,
+    "Name": null
+  }
+]
+

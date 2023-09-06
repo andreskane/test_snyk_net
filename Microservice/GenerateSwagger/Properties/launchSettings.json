@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GenerateSwagger": {
+      "commandName": "Project",
+      "commandLineArgs": "SwaggerPath=c:\\tempo\\"
+    }
+  }
+}

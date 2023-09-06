@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+	 <!-- SonarQube needs this -->
+  <ProjectGuid>{0D8F5936-1374-49FA-91F9-3EB526DDE13F}</ProjectGuid>
+	  <AssemblyVersion>1.5.23.4</AssemblyVersion>
+	  <FileVersion>1.5.23.4</FileVersion>
+	  <Version>1.5.23.4</Version>
+  <CodeAnalysisRuleSet>..\.sonarlint\ab-inbev-las_abi-api-estructurascsharp.ruleset</CodeAnalysisRuleSet>
+  <Configurations>Debug;Release;Docker;TestAutomation</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\ImportProcess\**" />
+    <Compile Remove="Events\**" />
+    <Compile Remove="StructureDocument\**" />
+    <EmbeddedResource Remove="Entities\ImportProcess\**" />
+    <EmbeddedResource Remove="Events\**" />
+    <EmbeddedResource Remove="StructureDocument\**" />
+    <None Remove="Entities\ImportProcess\**" />
+    <None Remove="Events\**" />
+    <None Remove="StructureDocument\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Enums\ImportProcessSource.cs" />
+    <Compile Remove="Enums\ImportProcessState.cs" />
+    <Compile Remove="Enums\Periodicity.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="AggregatesModel\StructureNodeAggregate\StructureNode.cs~RFef07fc7.TMP" />
+    <None Remove="AggregatesModel\StructureNodeAggregate\StructureNodoDefinition.cs~RFff6417b.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\.sonarlint\ab-inbev-las_abi-api-estructuras\CSharp\SonarLint.xml" Link="SonarLint.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ABI.Framework.MS.Domain" Version="5.0.1" />
+    <PackageReference Include="ABI.Framework.MS.Entity" Version="5.0.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.17.0" />
+  </ItemGroup>
+
+</Project>

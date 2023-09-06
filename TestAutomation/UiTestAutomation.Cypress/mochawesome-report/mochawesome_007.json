@@ -1,0 +1,186 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-07-20T11:42:39.530Z",
+    "end": "2021-07-20T11:42:43.638Z",
+    "duration": 4108,
+    "testsRegistered": 5,
+    "passPercent": 20,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 3,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "6588dc47-e377-4975-81a4-86dcc3d516d3",
+      "title": "",
+      "fullFile": "cypress/integration/checkTitle.spec.js",
+      "file": "cypress/integration/checkTitle.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e8a87111-6863-4137-9689-ecc24d09f018",
+          "title": "Actions",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should visit the Home Page",
+              "fullTitle": "Actions should visit the Home Page",
+              "timedOut": null,
+              "duration": 3215,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Given: I visit the page\ncy.visit(\"https://abi-las-fe-wsc-dev.dev.abinbev-las.com/main/home\");\ncy.get('.page-title').should('have.text', 'Bienvenido a WSC'); // etc..",
+              "err": {},
+              "uuid": "689da67b-abf3-4ec2-b98f-3efd955f73d6",
+              "parentUUID": "e8a87111-6863-4137-9689-ecc24d09f018",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should login succesfully and show the environment name",
+              "fullTitle": "Actions Should login succesfully and show the environment name",
+              "timedOut": null,
+              "duration": 765,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\ncy.visit(\"/\"); // Verificando existencia del titulo en el home\ncy.get('.title-environment.ng-star-inserted').should('have.text', ' Integracion ');",
+              "err": {
+                "message": "TypeError: Cannot read property 'oid' of null\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Actions`",
+                "estack": "TypeError: Cannot read property 'oid' of null\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Actions`\n    at injectTokens (https://abi-las-fe-wsc-dev.dev.abinbev-las.com/__cypress/tests?p=cypress\\support\\index.js:183:34)\n    at Context.eval (https://abi-las-fe-wsc-dev.dev.abinbev-las.com/__cypress/tests?p=cypress\\support\\index.js:233:5)",
+                "diff": null
+              },
+              "uuid": "7b436551-561f-4bac-a521-f325c70962e3",
+              "parentUUID": "e8a87111-6863-4137-9689-ecc24d09f018",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should login succesfully and show the web app version",
+              "fullTitle": "Actions Should login succesfully and show the web app version",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\ncy.visit(\"/\"); // Verificando existencia del titulo en el home\ncy.get('.title-version').should('have.text', STR_VERSION);",
+              "err": {},
+              "uuid": "1bfd5ded-959d-4d03-a222-4464046c7fb2",
+              "parentUUID": "e8a87111-6863-4137-9689-ecc24d09f018",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Should login succesfully, unfold the side menu and fold it again",
+              "fullTitle": "Actions Should login succesfully, unfold the side menu and fold it again",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\ncy.visit(\"/\");\ncy.wait(2000); // Desplegando el menú lateral\ncy.get('[src=\"assets/menu/menu.svg\"]').click();\ncy.wait(2000); // Plegando el menú lateral\ncy.get('[src=\"assets/menu/active.svg\"]').click();",
+              "err": {},
+              "uuid": "f80be8c5-5bb5-4c4a-958d-e7596cd7ac30",
+              "parentUUID": "e8a87111-6863-4137-9689-ecc24d09f018",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Should login and go to the Volumen Baseline home",
+              "fullTitle": "Actions Should login and go to the Volumen Baseline home",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Visita al portal\ncy.visit(WSC_URL_DEV);\ncy.wait(2000); // Desplegando el menú lateral\ncy.get('[src=\"assets/menu/fuentes.svg\"]').click();\ncy.wait(2000); // Plegando el menú lateral\ncy.get('[tabindex=\"0\"]').click();",
+              "err": {},
+              "uuid": "a16f533b-30c4-49d3-8ed9-d30f8be3bcf9",
+              "parentUUID": "e8a87111-6863-4137-9689-ecc24d09f018",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "689da67b-abf3-4ec2-b98f-3efd955f73d6"
+          ],
+          "failures": [
+            "7b436551-561f-4bac-a521-f325c70962e3"
+          ],
+          "pending": [],
+          "skipped": [
+            "1bfd5ded-959d-4d03-a222-4464046c7fb2",
+            "f80be8c5-5bb5-4c4a-958d-e7596cd7ac30",
+            "a16f533b-30c4-49d3-8ed9-d30f8be3bcf9"
+          ],
+          "duration": 3980,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
