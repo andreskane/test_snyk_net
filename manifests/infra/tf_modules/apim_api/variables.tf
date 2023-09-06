@@ -1,0 +1,11 @@
+variable "name" {}
+variable "rg_name" {}
+variable "apim_name" {}
+variable "revision" {}
+variable "description" {}
+variable "display_name" {}
+variable "path" {} 
+variable "protocol" {}
+variable "service_url" {}
+variable "content_format" {}
+variable "swagger_json" {}

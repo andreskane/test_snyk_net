@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: #{img_lowercase_name}#-configmap
+  namespace: #{namespace_aks}#
+data:
+  config.json: |
+    #{datajson}#    
+    
